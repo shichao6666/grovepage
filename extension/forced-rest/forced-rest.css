@@ -1,0 +1,27 @@
+.break-page {
+  display: grid;
+  min-height: 100vh;
+  padding: 20px;
+  place-items: center;
+  background: radial-gradient(ellipse at 18% 12%, var(--soft), var(--bg) 68%);
+  font-size: 16px;
+}
+.break-card {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  width: min(100%, 460px);
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  text-align: center;
+}
+.break-card h1 { font-size: 27px; }
+.break-card header p { margin-top: 4px; white-space: pre-wrap; overflow-wrap: anywhere; }
+#restTimer { font-size: clamp(44px, 10vw, 64px); line-height: 1.1; color: var(--accent); font-variant-numeric: tabular-nums; }
+.break-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.break-music { display: grid; gap: 8px; width: 100%; text-align: start; border-top: 1px solid var(--line); padding: 10px 0 0; }
+.break-music label, #musicStatus { font-size: 14px; }
+#skipDialog { width: min(88vw, 360px); padding: 18px; border: 1px solid var(--line); border-radius: 13px; color: var(--text); background: var(--surface); }
+#skipDialog::backdrop { background: #101b1470; }

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="aboutTitle">关于森页护眼</title>
+  <link rel="stylesheet" href="../js/ui.css">
+  <link rel="stylesheet" href="../js/settings.css">
+</head>
+<body class="settings-page">
+  <div class="settings-shell">
+    <aside class="settings-sidebar">
+      <div class="settings-brand">
+        <img src="../icons/icon48.png" width="32" height="32" alt="">
+        <div><strong data-i18n="projectName">森页护眼</strong><p data-i18n="advancedSettings">高级设置</p></div>
+      </div>
+      <nav class="settings-nav" aria-label="设置导航">
+        <a href="../options/options.html#filter" data-i18n="settingsFilter">护眼与网站</a>
+        <a href="../options/options.html#reminders" data-i18n="restReminder">休息提醒</a>
+        <a href="../options/options.html#general" data-i18n="settingsGeneral">快捷键与语言</a>
+        <a href="../options/options.html#backup" data-i18n="settingsBackup">备份与恢复</a>
+        <a href="settings.html" data-i18n="settingsAbout" aria-current="page">关于</a>
+      </nav>
+    </aside>
+    <main class="settings-content">
+      <header class="settings-header">
+        <h1 data-i18n="aboutTitle">关于森页护眼</h1>
+        <p id="versionNumber" class="about-version"></p>
+      </header>
+      <div class="settings-group">
+        <section class="setting-card" id="versionUpdate" hidden>
+          <p id="loadedVersionNotice" role="status"></p>
+          <button type="button" class="version-reload" id="reloadExtension" data-i18n="reloadExtension">重新加载扩展</button>
+        </section>
+        <section class="setting-card">
+          <h2 data-i18n="aboutProjectHeading">项目简介</h2>
+          <p data-i18n="aboutProject">为网页添加可调颜色与强度的滤镜，支持按网站应用、临时暂停和休息提醒。</p>
+        </section>
+        <section class="setting-card">
+          <h2 data-i18n="aboutFeaturesHeading">功能一览</h2>
+          <dl class="about-list">
+            <div><dt data-i18n="aboutColorsTitle">网页颜色与强度</dt><dd data-i18n="aboutFilter">使用预设色或自定义 RGB 颜色。可为白天和夜间分别设定强度，浏览器重启后会记住全局护眼开关。</dd></div>
+            <div><dt data-i18n="aboutScopeTitle">网站规则与临时暂停</dt><dd data-i18n="aboutScope">指定或排除网站，在弹窗查看当前页状态。可以暂停当前标签页或所有标签页，时长为 30 秒到 5 分钟。</dd></div>
+            <div><dt data-i18n="restReminder">休息提醒</dt><dd data-i18n="aboutReminders">选择固定间隔或倒计时，设置提示语。也可以启用全屏休息和背景音。</dd></div>
+            <div><dt data-i18n="settingsBackup">备份与恢复</dt><dd data-i18n="aboutBackup">将颜色、强度、网站规则和提醒偏好导出为 JSON，导入时先预览改动，再确认恢复。</dd></div>
+          </dl>
+        </section>
+        <section class="setting-card" id="feedback">
+          <h2 data-i18n="feedbackTitle">意见反馈</h2>
+          <p data-i18n="feedbackIntro">有使用问题、故障报告或改进建议，可以发邮件联系作者。</p>
+          <p class="feedback-contact"><a href="mailto:jinshichao666@gmail.com">jinshichao666@gmail.com</a></p>
+          <div class="setting-divider">
+            <p data-i18n="supportPitch">用得顺手的话，欢迎给森页这片小叶子浇点水。每一份支持，都能给下一次更新添点动力。</p>
+            <a class="support-page-link" href="support.html" target="_blank" rel="noopener noreferrer" data-i18n="supportProject">捐献支持</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/ui.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+/* The overlay is attached to the document root and stays outside the hit test. */
+html.eyecare-active::after {
+  content: '' !important;
+  position: fixed !important;
+  inset: 0 !important;
+  display: block !important;
+  visibility: visible !important;
+  background: var(--eyecare-color, transparent) !important;
+  opacity: var(--eyecare-opacity, 0) !important;
+  mix-blend-mode: multiply !important;
+  pointer-events: none !important;
+  z-index: 2147483647 !important;
+}
+
+@media print {
+  html.eyecare-active::after {
+    display: none !important;
+  }
+}

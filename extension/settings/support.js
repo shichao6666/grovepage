@@ -1,0 +1,1 @@
+loadUiLanguage().catch(console.error);

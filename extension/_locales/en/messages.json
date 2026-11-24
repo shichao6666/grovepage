@@ -1,0 +1,606 @@
+{
+  "aboutBackup": {
+    "message": "Export colors, strengths, site rules, and reminder preferences to JSON. Review the proposed changes before restoring."
+  },
+  "aboutColorsTitle": {
+    "message": "Website color and strength"
+  },
+  "aboutFeaturesHeading": {
+    "message": "Features"
+  },
+  "aboutFilter": {
+    "message": "Pick an RGB color or a preset, set separate day and night strengths, and keep your global filter preference across browser restarts."
+  },
+  "aboutProject": {
+    "message": "Adjust website filter color and strength, with site rules, temporary pauses, and break reminders."
+  },
+  "aboutProjectHeading": {
+    "message": "Project overview"
+  },
+  "aboutReminders": {
+    "message": "Choose a fixed interval or a countdown and write your own message. Full-screen breaks and background audio are optional."
+  },
+  "aboutScope": {
+    "message": "Include or exclude websites and check the active page in the toolbar. Pause the filter for 30 seconds to 5 minutes on the current tab or all tabs."
+  },
+  "aboutScopeTitle": {
+    "message": "Site rules and temporary pauses"
+  },
+  "aboutTitle": {
+    "message": "About GrovePage"
+  },
+  "advancedSettings": {
+    "message": "Advanced settings"
+  },
+  "aliceBlueColorName": {
+    "message": "Rain Blue"
+  },
+  "allDomains": {
+    "description": "All domains option",
+    "message": "All"
+  },
+  "allowEmergencySkip": {
+    "description": "Allow emergency skip option",
+    "message": "Allow Emergency Skip"
+  },
+  "applyBackup": {
+    "message": "Restore settings"
+  },
+  "backupApplied": {
+    "message": "Settings restored."
+  },
+  "backupChangeLine": {
+    "message": "$1: $2 → $3"
+  },
+  "backupFormatVersion": {
+    "message": "Configuration format version $1"
+  },
+  "backupHint": {
+    "message": "Back up saved settings and preview changes before restoring."
+  },
+  "backupInvalid": {
+    "message": "The backup file has an invalid format or settings."
+  },
+  "backupNoChanges": {
+    "message": "The preferences in this file match the current settings."
+  },
+  "backupShortcutHint": {
+    "message": "The file records $1. You can assign it on your browser's extension shortcuts page."
+  },
+  "backupTransfer": {
+    "message": "Export & import"
+  },
+  "backupUnsupported": {
+    "message": "This backup version is incompatible with this extension."
+  },
+  "beigeColorName": {
+    "message": "Wheat Straw"
+  },
+  "blueColorName": {
+    "message": "Lake Mist"
+  },
+  "breakMusicPlayHint": {
+    "message": "Select Play to start the background audio."
+  },
+  "cancelBackup": {
+    "message": "Cancel"
+  },
+  "cancelSkip": {
+    "message": "Keep resting"
+  },
+  "checkingFilter": {
+    "message": "Checking the current page"
+  },
+  "closeReminder": {
+    "message": "Close"
+  },
+  "configureReminder": {
+    "message": "Reminder settings"
+  },
+  "confirmSkip": {
+    "message": "End break"
+  },
+  "countdown": {
+    "description": "Countdown option",
+    "message": "Countdown"
+  },
+  "countdownHoursLabel": {
+    "message": "Countdown (hours)"
+  },
+  "countdownMinutesLabel": {
+    "message": "Countdown (minutes)"
+  },
+  "currentShortcut": {
+    "message": "Current shortcut: $1"
+  },
+  "customColor": {
+    "message": "Custom color"
+  },
+  "customColorName": {
+    "message": "Custom RGB"
+  },
+  "customizeShortcuts": {
+    "description": "Customize shortcuts button",
+    "message": "Customize Shortcuts"
+  },
+  "cyanColorName": {
+    "message": "Teal Haze"
+  },
+  "dayNightStrength": {
+    "message": "Day and night filter strength"
+  },
+  "dayStart": {
+    "message": "Day starts"
+  },
+  "dayStrength": {
+    "message": "Day strength"
+  },
+  "defaultColorName": {
+    "message": "Warm Paper"
+  },
+  "defaultReminderMessage": {
+    "message": "Time for a break. Stand up and move around for a moment."
+  },
+  "differentScheduleTimes": {
+    "message": "Choose different start times for day and night."
+  },
+  "domainControl": {
+    "description": "Domain control section title",
+    "message": "Affected Sites"
+  },
+  "domainList": {
+    "description": "Domain list label",
+    "message": "Website Domain List"
+  },
+  "domainListPlaceholder": {
+    "message": "Add one domain per line or separate them with commas, such as example.com."
+  },
+  "domainMode": {
+    "description": "Domain mode label",
+    "message": "Application Mode"
+  },
+  "domainRuleHint": {
+    "message": "The website list is used in the specific and excluded modes."
+  },
+  "duration10Min": {
+    "description": "10 minutes duration option",
+    "message": "10 minutes"
+  },
+  "duration15Min": {
+    "description": "15 minutes duration option",
+    "message": "15 minutes"
+  },
+  "duration1Min": {
+    "description": "1 minute duration option",
+    "message": "1 minute"
+  },
+  "duration2Min": {
+    "description": "2 minutes duration option",
+    "message": "2 minutes"
+  },
+  "duration3Min": {
+    "description": "3 minutes duration option",
+    "message": "3 minutes"
+  },
+  "duration5Min": {
+    "description": "5 minutes duration option",
+    "message": "5 minutes"
+  },
+  "emergencySkip": {
+    "description": "Emergency skip button",
+    "message": "Emergency Skip"
+  },
+  "emptySetting": {
+    "message": "Empty"
+  },
+  "enableCustomColor": {
+    "description": "Enable custom color checkbox",
+    "message": "Enable Custom Color"
+  },
+  "enableForcedRest": {
+    "description": "Enable forced rest mode",
+    "message": "Enable Forced Rest Mode"
+  },
+  "enableMusic": {
+    "description": "Enable music option",
+    "message": "Enable Music"
+  },
+  "enableRestReminder": {
+    "description": "Enable rest reminder",
+    "message": "Enable Rest Reminder"
+  },
+  "enableSchedule": {
+    "message": "Use separate day and night strengths"
+  },
+  "enableShortcuts": {
+    "description": "Enable shortcuts option",
+    "message": "Enable Shortcuts"
+  },
+  "excludedDomains": {
+    "description": "Excluded domains option",
+    "message": "Excluded"
+  },
+  "exportBackup": {
+    "message": "Export JSON"
+  },
+  "extDescription": {
+    "message": "Adjust website filter color and strength, with site rules, temporary pauses, and break reminders."
+  },
+  "extName": {
+    "message": "GrovePage · Website Tint & Break Reminders"
+  },
+  "extendBreakFive": {
+    "message": "Extend by 5 minutes"
+  },
+  "eyeProtectionMode": {
+    "description": "Eye protection mode title",
+    "message": "Eye Protection"
+  },
+  "filterApplied": {
+    "message": "Filter applied on this page"
+  },
+  "filterColors": {
+    "message": "Filter color"
+  },
+  "filterExcluded": {
+    "message": "This site is outside your filter rules"
+  },
+  "filterMissing": {
+    "message": "Filter not detected on this page"
+  },
+  "filterOff": {
+    "message": "Eye protection is off"
+  },
+  "filterPaused": {
+    "message": "Filter paused on this page"
+  },
+  "filterPausedAll": {
+    "message": "All tabs paused · $1 s left"
+  },
+  "filterPausedBoth": {
+    "message": "Overlapping pauses on this tab · $1 s left"
+  },
+  "filterPausedTab": {
+    "message": "Current tab paused · $1 s left"
+  },
+  "filterPending": {
+    "message": "Updating the filter on this page"
+  },
+  "filterRestricted": {
+    "message": "The browser restricts filtering on this page"
+  },
+  "filterBaseStrength": {
+    "message": "Includes a $1% base"
+  },
+  "filterStrength": {
+    "description": "Filter strength label",
+    "message": "Filter Strength"
+  },
+  "fixedInterval": {
+    "description": "Fixed interval option",
+    "message": "Fixed Interval"
+  },
+  "forcedRestMessage": {
+    "message": "Step away from the screen for a moment and return when the timer ends."
+  },
+  "forcedRestMode": {
+    "description": "Forced rest mode section title",
+    "message": "Forced Rest Mode"
+  },
+  "forcedRestTitle": {
+    "message": "Time for a break"
+  },
+  "fullscreenReminder": {
+    "description": "Label for fullscreen rest mode option",
+    "message": "Fullscreen Reminder"
+  },
+  "greenColorName": {
+    "message": "Soft Jade"
+  },
+  "hours": {
+    "description": "Hours unit",
+    "message": "hours"
+  },
+  "importPreview": {
+    "message": "Import preview"
+  },
+  "intervalConfigured": {
+    "message": "Remind every $1 min"
+  },
+  "intervalLeft": {
+    "message": "Next reminder in $1"
+  },
+  "intervalMinutesLabel": {
+    "message": "Interval (minutes)"
+  },
+  "language": {
+    "description": "Language selector label",
+    "message": "Language:"
+  },
+  "lavenderPurpleColorName": {
+    "message": "Pale Iris"
+  },
+  "lightGreenColorName": {
+    "message": "Spring Bud"
+  },
+  "mintGreenColorName": {
+    "message": "Fog Mint"
+  },
+  "minutes": {
+    "description": "Minutes unit",
+    "message": "minutes"
+  },
+  "moreColors": {
+    "message": "More colors"
+  },
+  "musicBeautiful": {
+    "message": "Woodland Echo"
+  },
+  "musicCheerful": {
+    "message": "Morning Light"
+  },
+  "musicPeaceful": {
+    "message": "Still Water"
+  },
+  "musicType": {
+    "description": "Music type selection",
+    "message": "Music Type"
+  },
+  "musicVolume": {
+    "description": "Music volume control",
+    "message": "Volume"
+  },
+  "nightStart": {
+    "message": "Night starts"
+  },
+  "nightStrength": {
+    "message": "Night strength"
+  },
+  "nonzeroCountdown": {
+    "message": "Set a countdown of at least one minute."
+  },
+  "openColorPicker": {
+    "message": "Pick color / RGB"
+  },
+  "operationFailed": {
+    "message": "The operation failed. Please try again."
+  },
+  "pause30": {
+    "message": "30 seconds"
+  },
+  "pauseAll": {
+    "message": "All tabs"
+  },
+  "pauseBreakMusic": {
+    "message": "Pause"
+  },
+  "pauseDuration": {
+    "message": "Duration"
+  },
+  "pauseFilter": {
+    "message": "Pause filter"
+  },
+  "pauseOptions": {
+    "message": "Options"
+  },
+  "pauseQuick": {
+    "message": "Pause for 30s"
+  },
+  "pauseQuickAll": {
+    "message": "Pause all tabs for $1"
+  },
+  "pauseQuickTab": {
+    "message": "Pause current tab for $1"
+  },
+  "pauseScope": {
+    "message": "Scope"
+  },
+  "pauseTab": {
+    "message": "Current tab only"
+  },
+  "pinkColorName": {
+    "message": "Pale Blush"
+  },
+  "playBreakMusic": {
+    "message": "Play"
+  },
+  "preferencesSaved": {
+    "message": "Settings saved."
+  },
+  "preferencesSaving": {
+    "message": "Saving…"
+  },
+  "preferencesUnsaved": {
+    "message": "Unsaved changes"
+  },
+  "presetColors": {
+    "description": "Preset colors section title",
+    "message": "Preset Colors"
+  },
+  "previewMusic": {
+    "description": "Preview music button",
+    "message": "Preview"
+  },
+  "projectName": {
+    "message": "GrovePage"
+  },
+  "recheckShort": {
+    "message": "Reload & check"
+  },
+  "reminderAutoClose": {
+    "message": "Closes automatically in $1 seconds"
+  },
+  "reminderDisabled": {
+    "message": "Break reminders are off"
+  },
+  "reminderMessage": {
+    "description": "Reminder message label",
+    "message": "Reminder Message"
+  },
+  "reminderPreferences": {
+    "message": "Reminder settings"
+  },
+  "reminderType": {
+    "description": "Reminder type label",
+    "message": "Reminder Type"
+  },
+  "restDuration": {
+    "description": "Rest duration selection",
+    "message": "Rest Duration"
+  },
+  "restModeType": {
+    "description": "Rest mode type selection",
+    "message": "Rest Mode Type"
+  },
+  "restReminder": {
+    "description": "Rest reminder section title",
+    "message": "Rest Reminder"
+  },
+  "restTimeRemaining": {
+    "message": "Break time remaining"
+  },
+  "resumeAll": {
+    "message": "Resume all tabs now"
+  },
+  "resumeAllShort": {
+    "message": "Resume all tabs"
+  },
+  "resumeNow": {
+    "message": "Resume now"
+  },
+  "resumeTab": {
+    "message": "Resume current tab now"
+  },
+  "resumeTabShort": {
+    "message": "Resume this tab"
+  },
+  "rosePinkColorName": {
+    "message": "Berry Tint"
+  },
+  "savePreferences": {
+    "message": "Save settings"
+  },
+  "scheduleHint": {
+    "message": "Uses local device time and the same color for both periods."
+  },
+  "selectBackup": {
+    "message": "Choose backup file"
+  },
+  "settingOff": {
+    "message": "Off"
+  },
+  "settingOn": {
+    "message": "On"
+  },
+  "settingsAbout": {
+    "message": "About"
+  },
+  "settingsBackup": {
+    "message": "Backup & restore"
+  },
+  "settingsFilter": {
+    "message": "Filter & websites"
+  },
+  "settingsGeneral": {
+    "message": "Shortcuts & language"
+  },
+  "shortcutDisabledNotice": {
+    "message": "Website filter off"
+  },
+  "shortcutEnabledNotice": {
+    "message": "Website filter on"
+  },
+  "shortcutSettings": {
+    "description": "Shortcut settings section title",
+    "message": "Shortcut Settings"
+  },
+  "shortcutUnassigned": {
+    "message": "Unassigned"
+  },
+  "showShortcutNotifications": {
+    "description": "Show shortcut notifications option",
+    "message": "Show Notifications"
+  },
+  "skipConfirmMessage": {
+    "message": "Confirm to close the break window."
+  },
+  "skipConfirmTitle": {
+    "message": "End this break?"
+  },
+  "specificDomains": {
+    "description": "Specific domains option",
+    "message": "Specific"
+  },
+  "startCountdown": {
+    "description": "Start countdown button",
+    "message": "Start Countdown"
+  },
+  "stopCountdown": {
+    "description": "Stop countdown button",
+    "message": "Stop Countdown"
+  },
+  "stopPreview": {
+    "description": "Stop preview button",
+    "message": "Stop"
+  },
+  "timerMinutesValue": {
+    "message": "$1 min"
+  },
+  "timerStart": {
+    "message": "Start"
+  },
+  "timerStop": {
+    "message": "Stop"
+  },
+  "useBaseStrength": {
+    "message": "Use standard strength"
+  },
+  "warmOrangeColorName": {
+    "message": "Apricot"
+  },
+  "feedbackTitle": {
+    "message": "Feedback"
+  },
+  "feedbackIntro": {
+    "message": "Email the author with questions, bug reports, or suggestions."
+  },
+  "loadedVersionNotice": {
+    "message": "The browser is running v$1. Reload the extension to apply the current package version."
+  },
+  "reloadExtension": {
+    "message": "Reload extension"
+  },
+  "supportProject": {
+    "message": "Support"
+  },
+  "supportPitch": {
+    "message": "Enjoying GrovePage? A little water for this leaf helps the next update grow."
+  },
+  "supportVoluntary": {
+    "message": "Support is optional. Every GrovePage feature is free to use."
+  },
+  "backToFeedback": {
+    "message": "Back to feedback"
+  },
+  "saveSectionPreferences": {
+    "message": "Save this section"
+  },
+  "preferencesOtherUnsaved": {
+    "message": "Other sections have unsaved changes."
+  },
+  "domainListRequired": {
+    "message": "Enter at least one valid website domain."
+  },
+  "websiteRulesLink": {
+    "message": "Website rules"
+  },
+  "supportWechat": {
+    "message": "WeChat Pay"
+  },
+  "supportAlipay": {
+    "message": "Alipay"
+  },
+  "viewSupportCode": {
+    "message": "View full-size image"
+  }
+}

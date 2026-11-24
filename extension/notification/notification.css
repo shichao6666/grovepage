@@ -1,0 +1,54 @@
+:root { color-scheme: light dark; }
+body {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font: 16px/1.5 system-ui, "Microsoft YaHei UI", sans-serif;
+  color: #19382b;
+  background: #e9eee7;
+}
+.notification-container {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 10px;
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  border: 1px solid #d1ddd2;
+  border-radius: 16px;
+  background: #f8faf6;
+}
+#notificationMessage {
+  align-self: center;
+  max-height: 100%;
+  overflow: auto;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+.notification-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px 12px;
+}
+#closeBtn {
+  padding: 6px 16px;
+  border: 0;
+  border-radius: 7px;
+  font: inherit;
+  color: white;
+  background: #25684d;
+  cursor: pointer;
+}
+.countdown { color: #52665a; font-size: 13px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #dfede3; background: #1a2921; }
+  .notification-container { border-color: #48594f; background: #26372c; }
+  .countdown { color: #b4cbbd; }
+}

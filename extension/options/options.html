@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>森页护眼 · 高级设置</title>
+  <link rel="stylesheet" href="../js/ui.css">
+  <link rel="stylesheet" href="../js/settings.css">
+</head>
+<body class="settings-page">
+  <div class="settings-shell">
+    <aside class="settings-sidebar">
+      <div class="settings-brand">
+        <img src="../icons/icon48.png" width="32" height="32" alt="">
+        <div><strong data-i18n="projectName">森页护眼</strong><p data-i18n="advancedSettings">高级设置</p></div>
+      </div>
+      <nav class="settings-nav" id="settingsNav" aria-label="设置导航">
+        <a href="#filter" data-section="filter" data-i18n="settingsFilter" aria-current="page">护眼与网站</a>
+        <a href="#reminders" data-section="reminders" data-i18n="restReminder">休息提醒</a>
+        <a href="#general" data-section="general" data-i18n="settingsGeneral">快捷键与语言</a>
+        <a href="#backup" data-section="backup" data-i18n="settingsBackup">备份与恢复</a>
+        <a href="../settings/settings.html" data-i18n="settingsAbout">关于</a>
+      </nav>
+    </aside>
+    <main class="settings-content">
+      <header class="settings-header">
+        <h1 id="settingsHeading" tabindex="-1" data-i18n="settingsFilter">护眼与网站</h1>
+        <div class="settings-actions" id="preferencesActions">
+          <p id="preferencesStatus" class="settings-status" role="status"></p>
+          <button class="settings-save" id="savePreferences" type="submit" form="preferences" data-i18n="saveSectionPreferences" disabled>保存本页</button>
+        </div>
+      </header>
+      <form id="preferences" novalidate>
+        <div class="settings-group" data-panel="filter">
+          <section class="setting-card">
+            <h2 data-i18n="dayNightStrength">昼夜滤镜强度</h2>
+            <label class="check-row"><input type="checkbox" id="scheduleEnabled"><span data-i18n="enableSchedule">按时段调节强度</span></label>
+            <p class="muted setting-hint" data-i18n="scheduleHint">使用设备本地时间，白天与夜间共用一种颜色。</p>
+            <div id="scheduleFields" class="field-grid">
+              <label class="field"><span data-i18n="dayStart">白天开始</span><input type="time" id="dayStart" required></label>
+              <label class="field"><span data-i18n="dayStrength">白天强度</span><span class="field-unit"><input type="number" id="dayOpacity" min="0" max="100" required><span aria-hidden="true">%</span></span></label>
+              <label class="field"><span data-i18n="nightStart">夜间开始</span><input type="time" id="nightStart" required></label>
+              <label class="field"><span data-i18n="nightStrength">夜间强度</span><span class="field-unit"><input type="number" id="nightOpacity" min="0" max="100" required><span aria-hidden="true">%</span></span></label>
+            </div>
+          </section>
+          <section class="setting-card">
+            <h2 id="websiteRules" tabindex="-1" data-i18n="domainControl">作用网站</h2>
+            <label class="field"><span data-i18n="domainMode">作用模式</span>
+              <select id="domainMode">
+                <option value="all" data-i18n="allDomains">所有</option>
+                <option value="specific" data-i18n="specificDomains">指定</option>
+                <option value="excluded" data-i18n="excludedDomains">排除</option>
+              </select>
+            </label>
+            <label class="field" id="domainFields"><span data-i18n="domainList">网站域名列表</span>
+              <textarea id="domainList" rows="3" data-i18n-placeholder="domainListPlaceholder" aria-describedby="domainRuleHint domainRuleError"></textarea>
+            </label>
+            <p class="muted setting-hint" id="domainRuleHint" data-i18n="domainRuleHint">网站名单用于指定或排除模式。</p>
+            <p class="error setting-hint" id="domainRuleError" role="alert" data-i18n="domainListRequired" hidden>请至少填写一个有效的网站域名。</p>
+          </section>
+        </div>
+        <div class="settings-group" data-panel="reminders" hidden>
+          <section class="setting-card">
+            <h2 data-i18n="reminderPreferences">提醒设置</h2>
+            <label class="check-row"><input type="checkbox" id="restReminder"><span data-i18n="enableRestReminder">开启休息提醒</span></label>
+            <div class="field-grid reminder-timing">
+              <label class="field"><span data-i18n="reminderType">提醒方式</span>
+                <select id="reminderType">
+                  <option value="interval" data-i18n="fixedInterval">固定间隔</option>
+                  <option value="countdown" data-i18n="countdown">倒计时</option>
+                </select>
+              </label>
+              <label class="field" data-reminder-length="interval"><span data-i18n="intervalMinutesLabel">间隔（分钟）</span>
+                <input type="number" id="reminderInterval" min="1" max="120" required>
+              </label>
+              <label class="field" data-reminder-length="countdown" hidden><span data-i18n="countdownMinutesLabel">倒计时（分钟）</span>
+                <input type="number" id="countdownTotalMinutes" min="0" max="1499" required>
+              </label>
+            </div>
+            <label class="field"><span data-i18n="reminderMessage">提醒提示语</span>
+              <textarea id="notificationMessage" rows="2" data-i18n-placeholder="defaultReminderMessage"></textarea>
+            </label>
+          </section>
+          <section class="setting-card">
+            <h2 data-i18n="forcedRestMode">强制休息模式</h2>
+            <label class="check-row"><input type="checkbox" id="forcedRestEnabled"><span data-i18n="enableForcedRest">启用强制休息</span></label>
+            <div class="field-grid">
+              <label class="field"><span data-i18n="restDuration">休息时长</span>
+                <select id="restDuration">
+                  <option value="60" data-i18n="duration1Min">1 分钟</option>
+                  <option value="120" data-i18n="duration2Min">2 分钟</option>
+                  <option value="180" data-i18n="duration3Min">3 分钟</option>
+                  <option value="300" data-i18n="duration5Min">5 分钟</option>
+                  <option value="600" data-i18n="duration10Min">10 分钟</option>
+                  <option value="900" data-i18n="duration15Min">15 分钟</option>
+                </select>
+              </label>
+              <label class="check-row"><input type="checkbox" id="allowEmergencySkip"><span data-i18n="allowEmergencySkip">允许紧急跳过</span></label>
+            </div>
+            <div class="setting-divider">
+              <label class="check-row"><input type="checkbox" id="musicEnabled"><span data-i18n="enableMusic">开启音乐</span></label>
+              <div class="field-grid">
+                <label class="field"><span data-i18n="musicType">音乐类型</span>
+                  <select id="selectedMusic">
+                    <option value="music1" data-i18n="musicBeautiful">优美</option>
+                    <option value="music2" data-i18n="musicPeaceful">平和</option>
+                    <option value="music3" data-i18n="musicCheerful">欢快</option>
+                  </select>
+                </label>
+                <label class="field volume-field"><span class="row"><span data-i18n="musicVolume">音量</span><output id="volumeValue" for="musicVolume"></output></span>
+                  <input type="range" id="musicVolume" min="0" max="100">
+                </label>
+                <button type="button" id="previewMusic" data-i18n="previewMusic">预览</button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="settings-group" data-panel="general" hidden>
+          <section class="setting-card">
+            <h2 data-i18n="shortcutSettings">快捷键设置</h2>
+            <label class="check-row"><input type="checkbox" id="shortcutsEnabled"><span data-i18n="enableShortcuts">启用快捷键</span></label>
+            <label class="check-row"><input type="checkbox" id="shortcutNotifications"><span data-i18n="showShortcutNotifications">显示操作提示</span></label>
+            <div class="field-grid">
+              <p id="activeShortcut" class="muted"></p>
+              <button type="button" id="shortcutSettings" data-i18n="customizeShortcuts">自定义快捷键</button>
+            </div>
+          </section>
+          <section class="setting-card">
+            <h2 id="languageLabel" data-i18n="language">语言</h2>
+            <select id="languageSelect" aria-labelledby="languageLabel">
+              <option value="zh_CN">中文</option>
+              <option value="en">English</option>
+              <option value="ja">日本語</option>
+              <option value="ko">한국어</option>
+              <option value="km">ភាសាខ្មែរ</option>
+              <option value="ru">Русский</option>
+            </select>
+          </section>
+        </div>
+      </form>
+      <div class="settings-group" data-panel="backup" hidden>
+        <section class="setting-card">
+          <h2 data-i18n="backupTransfer">导出与导入</h2>
+          <p class="muted" data-i18n="backupHint">备份已保存的设置。恢复前可预览变化。</p>
+          <div class="field-grid backup-controls">
+            <button type="button" id="exportBackup" data-i18n="exportBackup">导出 JSON</button>
+            <label class="field"><span data-i18n="selectBackup">选择备份文件</span><input type="file" accept=".json,application/json" id="backupFile"></label>
+          </div>
+          <div id="backupPreview" class="setting-divider" hidden>
+            <h2 data-i18n="importPreview">导入预览</h2>
+            <p id="backupVersion" class="muted"></p>
+            <ul id="backupChanges" class="backup-preview"></ul>
+            <p id="backupShortcut" class="muted" hidden></p>
+            <div class="field-grid">
+              <button class="settings-save" type="button" id="applyBackup" data-i18n="applyBackup">确认恢复</button>
+              <button type="button" id="cancelBackup" data-i18n="cancelBackup">取消</button>
+            </div>
+          </div>
+          <p id="backupStatus" class="settings-status" role="status"></p>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/ui.js"></script>
+  <script src="../js/filter-settings.js"></script>
+  <script src="../js/reminder-settings.js"></script>
+  <script src="options.js"></script>
+  <script src="backup.js"></script>
+</body>
+</html>

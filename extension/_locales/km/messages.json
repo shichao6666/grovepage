@@ -1,0 +1,616 @@
+{
+  "aboutBackup": {
+    "message": "នាំចេញពណ៌ កម្លាំង ច្បាប់គេហទំព័រ និងការកំណត់ការរំលឹកជា JSON។ ពិនិត្យមើលការផ្លាស់ប្តូរមុនពេលស្តារឡើងវិញ។"
+  },
+  "aboutColorsTitle": {
+    "message": "ពណ៌ និងកម្លាំងគេហទំព័រ"
+  },
+  "aboutFeaturesHeading": {
+    "message": "មុខងារ"
+  },
+  "aboutFilter": {
+    "message": "ជ្រើសរើសពណ៌ RGB ឬពណ៌កំណត់ស្រាប់ កំណត់កម្លាំងពេលថ្ងៃ និងពេលយប់ដាច់ដោយឡែក និងរក្សាការកំណត់តម្រងសកលទុកពេលបើកកម្មវិធីរុករកឡើងវិញ។"
+  },
+  "aboutProject": {
+    "message": "កែតម្រូវពណ៌ និងកម្លាំងតម្រងគេហទំព័រ ដោយមានច្បាប់គេហទំព័រ ការផ្អាកបណ្តោះអាសន្ន និងការរំលឹកសម្រាក។"
+  },
+  "aboutProjectHeading": {
+    "message": "ទិដ្ឋភាពទូទៅនៃគម្រោង"
+  },
+  "aboutReminders": {
+    "message": "ជ្រើសរើសចន្លោះពេលថេរ ឬការរាប់ថយក្រោយ ហើយសរសេរសារផ្ទាល់ខ្លួន។ ការសម្រាកអេក្រង់ពេញ និងសំឡេងផ្ទៃខាងក្រោយគឺជាជម្រើស។"
+  },
+  "aboutScope": {
+    "message": "បញ្ចូល ឬដកចេញគេហទំព័រ និងពិនិត្យទំព័របច្ចុប្បន្នក្នុងរបារឧបករណ៍។ ផ្អាកតម្រងពី 30 វិនាទីដល់ 5 នាទីលើផ្ទាំងបច្ចុប្បន្ន ឬផ្ទាំងទាំងអស់។"
+  },
+  "aboutScopeTitle": {
+    "message": "ច្បាប់គេហទំព័រ និងការផ្អាកបណ្តោះអាសន្ន"
+  },
+  "aboutTitle": {
+    "message": "អំពី GrovePage"
+  },
+  "advancedSettings": {
+    "message": "ការកំណត់កម្រិតខ្ពស់"
+  },
+  "aliceBlueColorName": {
+    "message": "ពណ៌មេឃភ្លៀង",
+    "description": "Alice blue color name"
+  },
+  "allDomains": {
+    "message": "គេហទំព័រទាំងអស់",
+    "description": "All domains option"
+  },
+  "allowEmergencySkip": {
+    "message": "អនុញ្ញាតឱ្យរំលងជាបន្ទាន់",
+    "description": "Allow emergency skip option"
+  },
+  "applyBackup": {
+    "message": "ស្តារការកំណត់ឡើងវិញ"
+  },
+  "backupApplied": {
+    "message": "បានស្តារការកំណត់ឡើងវិញ។"
+  },
+  "backupChangeLine": {
+    "message": "$1៖ $2 → $3"
+  },
+  "backupFormatVersion": {
+    "message": "កំណែទម្រង់ការកំណត់ $1"
+  },
+  "backupHint": {
+    "message": "បម្រុងទុកការកំណត់ដែលបានរក្សាទុក និងមើលជាមុននូវការផ្លាស់ប្តូរមុនពេលស្តារឡើងវិញ។"
+  },
+  "backupInvalid": {
+    "message": "ឯកសារបម្រុងទុកមានទម្រង់ ឬការកំណត់មិនត្រឹមត្រូវ។"
+  },
+  "backupNoChanges": {
+    "message": "ការកំណត់ក្នុងឯកសារនេះដូចគ្នានឹងការកំណត់បច្ចុប្បន្ន។"
+  },
+  "backupShortcutHint": {
+    "message": "ឯកសារនេះកត់ត្រា $1។ អ្នកអាចកំណត់វានៅទំព័រផ្លូវកាត់កម្មវិធីបន្ថែមនៃកម្មវិធីរុករក។"
+  },
+  "backupTransfer": {
+    "message": "នាំចេញ និងនាំចូល"
+  },
+  "backupUnsupported": {
+    "message": "កំណែបម្រុងទុកនេះមិនត្រូវគ្នានឹងកម្មវិធីបន្ថែមនេះទេ។"
+  },
+  "beigeColorName": {
+    "message": "ពណ៌ចំបើង",
+    "description": "Beige color name"
+  },
+  "blueColorName": {
+    "message": "ពណ៌ខៀវបឹង",
+    "description": "Blue color name"
+  },
+  "breakMusicPlayHint": {
+    "message": "ចុច «ចាក់» ដើម្បីចាប់ផ្តើមសំឡេងផ្ទៃខាងក្រោយ។"
+  },
+  "cancelBackup": {
+    "message": "បោះបង់"
+  },
+  "cancelSkip": {
+    "message": "បន្តសម្រាក"
+  },
+  "checkingFilter": {
+    "message": "កំពុងពិនិត្យទំព័របច្ចុប្បន្ន"
+  },
+  "closeReminder": {
+    "message": "បិទ"
+  },
+  "configureReminder": {
+    "message": "ការកំណត់ការរំលឹក"
+  },
+  "confirmSkip": {
+    "message": "បញ្ចប់ការសម្រាក"
+  },
+  "countdown": {
+    "message": "ការរាប់ថយក្រោយ",
+    "description": "Countdown"
+  },
+  "countdownHoursLabel": {
+    "message": "រាប់ថយក្រោយ (ម៉ោង)"
+  },
+  "countdownMinutesLabel": {
+    "message": "រាប់ថយក្រោយ (នាទី)"
+  },
+  "currentShortcut": {
+    "message": "ផ្លូវកាត់បច្ចុប្បន្ន៖ $1"
+  },
+  "customColor": {
+    "message": "ពណ៌ផ្ទាល់ខ្លួន",
+    "description": "Custom color"
+  },
+  "customColorName": {
+    "message": "ផ្ទាល់ខ្លួន",
+    "description": "Custom color name"
+  },
+  "customizeShortcuts": {
+    "description": "Customize shortcuts button",
+    "message": "កំណត់ផ្លូវកាត់ផ្ទាល់ខ្លួន"
+  },
+  "cyanColorName": {
+    "message": "ពណ៌ខៀវបៃតងស្រាល",
+    "description": "Cyan color name"
+  },
+  "dayNightStrength": {
+    "message": "កម្លាំងតម្រងពេលថ្ងៃ និងពេលយប់"
+  },
+  "dayStart": {
+    "message": "ពេលថ្ងៃចាប់ផ្តើម"
+  },
+  "dayStrength": {
+    "message": "កម្លាំងពេលថ្ងៃ"
+  },
+  "defaultColorName": {
+    "message": "ពណ៌ក្រដាសកក់ក្ដៅ",
+    "description": "Default color name"
+  },
+  "defaultReminderMessage": {
+    "message": "ដល់ពេលសម្រាកហើយ។ សូមក្រោកឈរ និងដើរលេងបន្តិច។"
+  },
+  "differentScheduleTimes": {
+    "message": "សូមជ្រើសរើសម៉ោងចាប់ផ្តើមពេលថ្ងៃ និងពេលយប់ឱ្យខុសគ្នា។"
+  },
+  "domainControl": {
+    "message": "ការគ្រប់គ្រងដែន",
+    "description": "Domain control section title"
+  },
+  "domainList": {
+    "message": "បញ្ជីដែនគេហទំព័រ",
+    "description": "Domain list label"
+  },
+  "domainListPlaceholder": {
+    "message": "បញ្ចូលដែនមួយក្នុងមួយបន្ទាត់ ឬបំបែកដោយសញ្ញាក្បៀស ដូចជា example.com។"
+  },
+  "domainMode": {
+    "message": "របៀបអនុវត្ត",
+    "description": "Domain mode label"
+  },
+  "domainRuleHint": {
+    "message": "បញ្ជីគេហទំព័រត្រូវបានប្រើក្នុងរបៀបជាក់លាក់ និងរបៀបដកចេញ។"
+  },
+  "duration10Min": {
+    "message": "10នាទី",
+    "description": "10 minutes duration option"
+  },
+  "duration15Min": {
+    "message": "15នាទី",
+    "description": "15 minutes duration option"
+  },
+  "duration1Min": {
+    "message": "1នាទី",
+    "description": "1 minute duration option"
+  },
+  "duration2Min": {
+    "message": "2នាទី",
+    "description": "2 minutes duration option"
+  },
+  "duration3Min": {
+    "message": "3នាទី",
+    "description": "3 minutes duration option"
+  },
+  "duration5Min": {
+    "message": "5នាទី",
+    "description": "5 minutes duration option"
+  },
+  "emergencySkip": {
+    "description": "Emergency skip button",
+    "message": "រំលងជាបន្ទាន់"
+  },
+  "emptySetting": {
+    "message": "ទទេ"
+  },
+  "enableCustomColor": {
+    "message": "បើកពណ៌ផ្ទាល់ខ្លួន",
+    "description": "Enable custom color"
+  },
+  "enableForcedRest": {
+    "message": "បើកការឈប់សម្រាកដោយបង្ខំ",
+    "description": "Enable forced rest mode"
+  },
+  "enableMusic": {
+    "description": "Enable music option",
+    "message": "បើកតន្ត្រី"
+  },
+  "enableRestReminder": {
+    "message": "បើកការរំលឹកឈប់សម្រាក",
+    "description": "Enable rest reminder"
+  },
+  "enableSchedule": {
+    "message": "ប្រើកម្លាំងពេលថ្ងៃ និងពេលយប់ដាច់ដោយឡែក"
+  },
+  "enableShortcuts": {
+    "description": "Enable shortcuts option",
+    "message": "បើកផ្លូវកាត់"
+  },
+  "excludedDomains": {
+    "description": "Excluded domains option",
+    "message": "ដកចេញ"
+  },
+  "exportBackup": {
+    "message": "នាំចេញ JSON"
+  },
+  "extDescription": {
+    "message": "កំណត់ពណ៌តម្រងគេហទំព័រ ផ្អាកជាបណ្តោះអាសន្ន និងកំណត់ការរំលឹកសម្រាក។"
+  },
+  "extName": {
+    "message": "GrovePage"
+  },
+  "extendBreakFive": {
+    "message": "ពន្យារ 5 នាទី"
+  },
+  "eyeProtectionMode": {
+    "message": "របៀបការពារភ្នែក",
+    "description": "Eye protection mode section title"
+  },
+  "filterApplied": {
+    "message": "បានអនុវត្តតម្រងលើទំព័រនេះ"
+  },
+  "filterColors": {
+    "message": "ពណ៌តម្រង"
+  },
+  "filterExcluded": {
+    "message": "គេហទំព័រនេះនៅក្រៅច្បាប់តម្រងរបស់អ្នក"
+  },
+  "filterMissing": {
+    "message": "រកមិនឃើញតម្រងលើទំព័រនេះ"
+  },
+  "filterOff": {
+    "message": "ការការពារភ្នែកត្រូវបានបិទ"
+  },
+  "filterPaused": {
+    "message": "តម្រងត្រូវបានផ្អាកលើទំព័រនេះ"
+  },
+  "filterPausedAll": {
+    "message": "ផ្ទាំងទាំងអស់ត្រូវបានផ្អាក · នៅសល់ $1 វិនាទី"
+  },
+  "filterPausedBoth": {
+    "message": "ការផ្អាកត្រួតគ្នាលើផ្ទាំងនេះ · នៅសល់ $1 វិនាទី"
+  },
+  "filterPausedTab": {
+    "message": "ផ្ទាំងបច្ចុប្បន្នត្រូវបានផ្អាក · នៅសល់ $1 វិនាទី"
+  },
+  "filterPending": {
+    "message": "កំពុងធ្វើបច្ចុប្បន្នភាពតម្រងលើទំព័រនេះ"
+  },
+  "filterRestricted": {
+    "message": "កម្មវិធីរុករកដាក់កម្រិតតម្រងលើទំព័រនេះ"
+  },
+  "filterBaseStrength": {
+    "message": "រួមទាំងកម្រិតមូលដ្ឋាន $1%"
+  },
+  "filterStrength": {
+    "message": "កម្លាំងច្រោះ",
+    "description": "Filter strength"
+  },
+  "fixedInterval": {
+    "message": "ចន្លោះពេលថេរ",
+    "description": "Fixed interval"
+  },
+  "forcedRestMessage": {
+    "message": "សូមសម្រាកភ្នែកពីអេក្រង់មួយភ្លែត ហើយត្រឡប់មកវិញពេលកម្មវិធីកំណត់ម៉ោងចប់។"
+  },
+  "forcedRestMode": {
+    "message": "របៀបឈប់សម្រាកដោយបង្ខំ",
+    "description": "Forced rest mode section title"
+  },
+  "forcedRestTitle": {
+    "message": "ដល់ពេលសម្រាកហើយ"
+  },
+  "fullscreenReminder": {
+    "message": "ការរំលឹកអេក្រង់ពេញ",
+    "description": "Fullscreen rest mode option label"
+  },
+  "greenColorName": {
+    "message": "ពណ៌បៃតងស្រាល",
+    "description": "Green color name"
+  },
+  "hours": {
+    "message": "ម៉ោង",
+    "description": "Hours unit"
+  },
+  "importPreview": {
+    "message": "មើលជាមុនការនាំចូល"
+  },
+  "intervalConfigured": {
+    "message": "រំលឹករៀងរាល់ $1 នាទី"
+  },
+  "intervalLeft": {
+    "message": "ការរំលឹកបន្ទាប់ក្នុង $1"
+  },
+  "intervalMinutesLabel": {
+    "message": "ចន្លោះពេល (នាទី)"
+  },
+  "language": {
+    "message": "ភាសា:",
+    "description": "Language selector label"
+  },
+  "lavenderPurpleColorName": {
+    "message": "ពណ៌ស្វាយស្រាល"
+  },
+  "lightGreenColorName": {
+    "message": "ពណ៌ពន្លក",
+    "description": "Light green color name"
+  },
+  "mintGreenColorName": {
+    "message": "ពណ៌ជីអង្កាមស្រាល"
+  },
+  "minutes": {
+    "message": "នាទី",
+    "description": "Minutes unit"
+  },
+  "moreColors": {
+    "message": "ពណ៌បន្ថែម"
+  },
+  "musicBeautiful": {
+    "message": "សំឡេងព្រៃ"
+  },
+  "musicCheerful": {
+    "message": "ពន្លឺពេលព្រឹក"
+  },
+  "musicPeaceful": {
+    "message": "ទឹកស្ងប់"
+  },
+  "musicType": {
+    "description": "Music type selection",
+    "message": "ប្រភេទតន្ត្រី"
+  },
+  "musicVolume": {
+    "description": "Music volume control",
+    "message": "កម្រិតសំឡេង"
+  },
+  "nightStart": {
+    "message": "ពេលយប់ចាប់ផ្តើម"
+  },
+  "nightStrength": {
+    "message": "កម្លាំងពេលយប់"
+  },
+  "nonzeroCountdown": {
+    "message": "កំណត់ការរាប់ថយក្រោយយ៉ាងហោចណាស់ 1 នាទី។"
+  },
+  "openColorPicker": {
+    "message": "ជ្រើសពណ៌ / RGB"
+  },
+  "operationFailed": {
+    "message": "ប្រតិបត្តិការបានបរាជ័យ។ សូមព្យាយាមម្តងទៀត។"
+  },
+  "pause30": {
+    "message": "30 វិនាទី"
+  },
+  "pauseAll": {
+    "message": "ផ្ទាំងទាំងអស់"
+  },
+  "pauseBreakMusic": {
+    "message": "ផ្អាក"
+  },
+  "pauseDuration": {
+    "message": "រយៈពេល"
+  },
+  "pauseFilter": {
+    "message": "ផ្អាកតម្រង"
+  },
+  "pauseOptions": {
+    "message": "ជម្រើស"
+  },
+  "pauseQuick": {
+    "message": "ផ្អាក 30 វិនាទី"
+  },
+  "pauseQuickAll": {
+    "message": "ផ្អាកផ្ទាំងទាំងអស់រយៈពេល $1"
+  },
+  "pauseQuickTab": {
+    "message": "ផ្អាកផ្ទាំងបច្ចុប្បន្នរយៈពេល $1"
+  },
+  "pauseScope": {
+    "message": "វិសាលភាព"
+  },
+  "pauseTab": {
+    "message": "តែផ្ទាំងបច្ចុប្បន្ន"
+  },
+  "pinkColorName": {
+    "message": "ពណ៌ផ្កាឈូកស្រាល",
+    "description": "Pink color name"
+  },
+  "playBreakMusic": {
+    "message": "ចាក់"
+  },
+  "preferencesSaved": {
+    "message": "បានរក្សាទុកការកំណត់។"
+  },
+  "preferencesSaving": {
+    "message": "កំពុងរក្សាទុក…"
+  },
+  "preferencesUnsaved": {
+    "message": "មានការផ្លាស់ប្តូរមិនទាន់រក្សាទុក"
+  },
+  "presetColors": {
+    "message": "ពណ៌ការពារភ្នែកដែលបានកំណត់រួច",
+    "description": "Preset eye care colors"
+  },
+  "previewMusic": {
+    "description": "Preview music button",
+    "message": "សាកល្បងស្តាប់"
+  },
+  "projectName": {
+    "message": "GrovePage"
+  },
+  "recheckShort": {
+    "message": "ផ្ទុកឡើងវិញ និងពិនិត្យ"
+  },
+  "reminderAutoClose": {
+    "message": "បិទដោយស្វ័យប្រវត្តិក្នុង $1 វិនាទី"
+  },
+  "reminderDisabled": {
+    "message": "ការរំលឹកសម្រាកត្រូវបានបិទ"
+  },
+  "reminderMessage": {
+    "message": "សារការរំលឹក",
+    "description": "Reminder message label"
+  },
+  "reminderPreferences": {
+    "message": "ការកំណត់ការរំលឹក"
+  },
+  "reminderType": {
+    "message": "ប្រភេទការរំលឹក",
+    "description": "Reminder type"
+  },
+  "restDuration": {
+    "description": "Rest duration selection",
+    "message": "រយៈពេលសម្រាក"
+  },
+  "restModeType": {
+    "message": "ប្រភេទរបៀបឈប់សម្រាក",
+    "description": "Rest mode type selection"
+  },
+  "restReminder": {
+    "message": "ការរំលឹកឈប់សម្រាក",
+    "description": "Rest reminder section title"
+  },
+  "restTimeRemaining": {
+    "message": "ពេលសម្រាកដែលនៅសល់"
+  },
+  "resumeAll": {
+    "message": "បន្តផ្ទាំងទាំងអស់ឥឡូវនេះ"
+  },
+  "resumeAllShort": {
+    "message": "បន្តផ្ទាំងទាំងអស់"
+  },
+  "resumeNow": {
+    "message": "បន្តឥឡូវនេះ"
+  },
+  "resumeTab": {
+    "message": "បន្តផ្ទាំងបច្ចុប្បន្នឥឡូវនេះ"
+  },
+  "resumeTabShort": {
+    "message": "បន្តផ្ទាំងនេះ"
+  },
+  "rosePinkColorName": {
+    "message": "ពណ៌ផ្កាឈូកផ្លែប៊ឺរី"
+  },
+  "savePreferences": {
+    "message": "រក្សាទុកការកំណត់"
+  },
+  "scheduleHint": {
+    "message": "ប្រើម៉ោងក្នុងឧបករណ៍ និងពណ៌ដូចគ្នាសម្រាប់ទាំងពីរពេល។"
+  },
+  "selectBackup": {
+    "message": "ជ្រើសរើសឯកសារបម្រុងទុក"
+  },
+  "settingOff": {
+    "message": "បិទ"
+  },
+  "settingOn": {
+    "message": "បើក"
+  },
+  "settingsAbout": {
+    "message": "អំពី"
+  },
+  "settingsBackup": {
+    "message": "បម្រុងទុក និងស្តារឡើងវិញ"
+  },
+  "settingsFilter": {
+    "message": "តម្រង និងគេហទំព័រ"
+  },
+  "settingsGeneral": {
+    "message": "ផ្លូវកាត់ និងភាសា"
+  },
+  "shortcutDisabledNotice": {
+    "message": "តម្រងគេហទំព័រត្រូវបានបិទ"
+  },
+  "shortcutEnabledNotice": {
+    "message": "តម្រងគេហទំព័រត្រូវបានបើក"
+  },
+  "shortcutSettings": {
+    "description": "Shortcut settings section title",
+    "message": "ការកំណត់ផ្លូវកាត់"
+  },
+  "shortcutUnassigned": {
+    "message": "មិនទាន់កំណត់"
+  },
+  "showShortcutNotifications": {
+    "description": "Show shortcut notifications option",
+    "message": "បង្ហាញការជូនដំណឹង"
+  },
+  "skipConfirmMessage": {
+    "message": "បញ្ជាក់ដើម្បីបិទផ្ទាំងសម្រាក។"
+  },
+  "skipConfirmTitle": {
+    "message": "បញ្ចប់ការសម្រាកនេះឬ?"
+  },
+  "specificDomains": {
+    "message": "គេហទំព័រជាក់លាក់",
+    "description": "Specific domains option"
+  },
+  "startCountdown": {
+    "message": "ចាប់ផ្តើមរាប់ថយក្រោយ",
+    "description": "Start countdown button"
+  },
+  "stopCountdown": {
+    "message": "ឈប់រាប់ថយក្រោយ",
+    "description": "Stop countdown button"
+  },
+  "stopPreview": {
+    "description": "Stop preview button",
+    "message": "ឈប់"
+  },
+  "timerMinutesValue": {
+    "message": "$1 នាទី"
+  },
+  "timerStart": {
+    "message": "ចាប់ផ្តើម"
+  },
+  "timerStop": {
+    "message": "ឈប់"
+  },
+  "useBaseStrength": {
+    "message": "ប្រើកម្លាំងស្តង់ដារ"
+  },
+  "warmOrangeColorName": {
+    "message": "ពណ៌ផ្លែអាព្រីកូត"
+  },
+  "feedbackTitle": {
+    "message": "មតិកែលម្អ"
+  },
+  "feedbackIntro": {
+    "message": "ផ្ញើអ៊ីមែលទៅអ្នកបង្កើត ដើម្បីសួរសំណួរ រាយការណ៍បញ្ហា ឬផ្តល់យោបល់។"
+  },
+  "loadedVersionNotice": {
+    "message": "កម្មវិធីរុករកកំពុងដំណើរការ v$1។ ផ្ទុកកម្មវិធីបន្ថែមឡើងវិញដើម្បីប្រើកំណែបច្ចុប្បន្ន។"
+  },
+  "reloadExtension": {
+    "message": "ផ្ទុកកម្មវិធីបន្ថែមឡើងវិញ"
+  },
+  "supportProject": {
+    "message": "គាំទ្រ"
+  },
+  "supportPitch": {
+    "message": "ពេញចិត្ត GrovePage ទេ? ទឹកមួយដំណក់សម្រាប់ស្លឹកតូចនេះ នឹងផ្តល់កម្លាំងដល់ការអាប់ដេតបន្ទាប់។"
+  },
+  "supportVoluntary": {
+    "message": "ការគាំទ្រគឺតាមស្ម័គ្រចិត្ត។ មុខងារទាំងអស់អាចប្រើបានដោយឥតគិតថ្លៃ។"
+  },
+  "backToFeedback": {
+    "message": "ត្រឡប់ទៅមតិកែលម្អ"
+  },
+  "saveSectionPreferences": {
+    "message": "រក្សាទុកផ្នែកនេះ"
+  },
+  "preferencesOtherUnsaved": {
+    "message": "មានការផ្លាស់ប្តូរមិនទាន់រក្សាទុកនៅផ្នែកផ្សេង។"
+  },
+  "domainListRequired": {
+    "message": "បញ្ចូលដែនគេហទំព័រត្រឹមត្រូវយ៉ាងហោចណាស់មួយ។"
+  },
+  "websiteRulesLink": {
+    "message": "ច្បាប់គេហទំព័រ"
+  },
+  "supportWechat": {
+    "message": "WeChat Pay"
+  },
+  "supportAlipay": {
+    "message": "Alipay"
+  },
+  "viewSupportCode": {
+    "message": "មើលរូបភាពដើម"
+  }
+}

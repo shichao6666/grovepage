@@ -1,0 +1,608 @@
+{
+  "aboutBackup": {
+    "message": "색상, 강도, 웹사이트 규칙 및 알림 설정을 JSON으로 내보냅니다. 복원하기 전에 변경 사항을 미리 확인할 수 있습니다."
+  },
+  "aboutColorsTitle": {
+    "message": "웹사이트 색상 및 강도"
+  },
+  "aboutFeaturesHeading": {
+    "message": "주요 기능"
+  },
+  "aboutFilter": {
+    "message": "프리셋 색상 또는 RGB 색상을 선택하고 주간·야간 강도를 따로 설정할 수 있습니다. 브라우저를 다시 시작해도 전체 필터 설정이 유지됩니다."
+  },
+  "aboutProject": {
+    "message": "웹사이트 규칙, 일시 중지, 휴식 알림과 함께 웹페이지 필터의 색상과 강도를 조절합니다."
+  },
+  "aboutProjectHeading": {
+    "message": "프로젝트 개요"
+  },
+  "aboutReminders": {
+    "message": "고정 간격 또는 카운트다운을 선택하고 원하는 알림 메시지를 작성할 수 있습니다. 전체 화면 휴식과 배경 음악은 선택 사항입니다."
+  },
+  "aboutScope": {
+    "message": "웹사이트를 지정하거나 제외하고 도구 모음에서 현재 페이지 상태를 확인할 수 있습니다. 현재 탭 또는 모든 탭의 필터를 30초에서 5분까지 일시 중지할 수 있습니다."
+  },
+  "aboutScopeTitle": {
+    "message": "웹사이트 규칙 및 일시 중지"
+  },
+  "aboutTitle": {
+    "message": "GrovePage 소개"
+  },
+  "advancedSettings": {
+    "message": "고급 설정"
+  },
+  "aliceBlueColorName": {
+    "message": "빗빛 하늘색"
+  },
+  "allDomains": {
+    "description": "All domains option",
+    "message": "모든 웹사이트"
+  },
+  "allowEmergencySkip": {
+    "description": "Allow emergency skip option",
+    "message": "긴급 건너뛰기 허용"
+  },
+  "applyBackup": {
+    "message": "설정 복원"
+  },
+  "backupApplied": {
+    "message": "설정이 복원되었습니다."
+  },
+  "backupChangeLine": {
+    "message": "$1: $2 → $3"
+  },
+  "backupFormatVersion": {
+    "message": "설정 형식 버전 $1"
+  },
+  "backupHint": {
+    "message": "저장된 설정을 백업하고 복원 전에 변경 사항을 미리 확인하세요."
+  },
+  "backupInvalid": {
+    "message": "백업 파일의 형식이 잘못되었거나 유효하지 않은 설정이 포함되어 있습니다."
+  },
+  "backupNoChanges": {
+    "message": "이 파일의 설정이 현재 설정과 일치합니다."
+  },
+  "backupShortcutHint": {
+    "message": "파일에 기록된 단축키는 $1입니다. 브라우저의 확장 프로그램 단축키 페이지에서 지정할 수 있습니다."
+  },
+  "backupTransfer": {
+    "message": "내보내기 및 가져오기"
+  },
+  "backupUnsupported": {
+    "message": "이 백업 버전은 현재 확장 프로그램과 호환되지 않습니다."
+  },
+  "beigeColorName": {
+    "message": "밀짚색"
+  },
+  "blueColorName": {
+    "message": "옅은 호수색"
+  },
+  "breakMusicPlayHint": {
+    "message": "재생을 선택하여 배경 음악을 시작하세요."
+  },
+  "cancelBackup": {
+    "message": "취소"
+  },
+  "cancelSkip": {
+    "message": "계속 휴식"
+  },
+  "checkingFilter": {
+    "message": "현재 페이지 확인 중"
+  },
+  "closeReminder": {
+    "message": "닫기"
+  },
+  "configureReminder": {
+    "message": "알림 설정"
+  },
+  "confirmSkip": {
+    "message": "휴식 종료"
+  },
+  "countdown": {
+    "description": "Countdown",
+    "message": "카운트다운"
+  },
+  "countdownHoursLabel": {
+    "message": "카운트다운 (시간)"
+  },
+  "countdownMinutesLabel": {
+    "message": "카운트다운 (분)"
+  },
+  "currentShortcut": {
+    "message": "현재 단축키: $1"
+  },
+  "customColor": {
+    "description": "Custom color",
+    "message": "커스텀 색상"
+  },
+  "customColorName": {
+    "description": "Custom color name",
+    "message": "커스텀"
+  },
+  "customizeShortcuts": {
+    "description": "Customize shortcuts button",
+    "message": "단축키 사용자 지정"
+  },
+  "cyanColorName": {
+    "message": "청록 안개색"
+  },
+  "dayNightStrength": {
+    "message": "주간·야간 필터 강도"
+  },
+  "dayStart": {
+    "message": "주간 시작"
+  },
+  "dayStrength": {
+    "message": "주간 강도"
+  },
+  "defaultColorName": {
+    "message": "따뜻한 종이색"
+  },
+  "defaultReminderMessage": {
+    "message": "휴식 시간입니다. 잠시 일어나 가볍게 움직여 보세요."
+  },
+  "differentScheduleTimes": {
+    "message": "주간과 야간의 시작 시간을 다르게 설정하세요."
+  },
+  "domainControl": {
+    "description": "Domain control section title",
+    "message": "도메인 제어"
+  },
+  "domainList": {
+    "description": "Domain list label",
+    "message": "웹사이트 도메인 목록"
+  },
+  "domainListPlaceholder": {
+    "message": "한 줄에 하나씩 입력하거나 쉼표로 구분하세요 (예: example.com)."
+  },
+  "domainMode": {
+    "description": "Domain mode label",
+    "message": "적용 모드"
+  },
+  "domainRuleHint": {
+    "message": "웹사이트 목록은 지정 모드와 제외 모드에서 사용됩니다."
+  },
+  "duration10Min": {
+    "description": "10 minutes duration option",
+    "message": "10분"
+  },
+  "duration15Min": {
+    "description": "15 minutes duration option",
+    "message": "15분"
+  },
+  "duration1Min": {
+    "description": "1 minute duration option",
+    "message": "1분"
+  },
+  "duration2Min": {
+    "description": "2 minutes duration option",
+    "message": "2분"
+  },
+  "duration3Min": {
+    "description": "3 minutes duration option",
+    "message": "3분"
+  },
+  "duration5Min": {
+    "description": "5 minutes duration option",
+    "message": "5분"
+  },
+  "emergencySkip": {
+    "description": "Emergency skip button",
+    "message": "긴급 건너뛰기"
+  },
+  "emptySetting": {
+    "message": "비어 있음"
+  },
+  "enableCustomColor": {
+    "description": "Enable custom color",
+    "message": "커스텀 색상 활성화"
+  },
+  "enableForcedRest": {
+    "description": "Enable forced rest mode",
+    "message": "강제 휴식 활성화"
+  },
+  "enableMusic": {
+    "description": "Enable music option",
+    "message": "음악 활성화"
+  },
+  "enableRestReminder": {
+    "description": "Enable rest reminder",
+    "message": "휴식 알림 활성화"
+  },
+  "enableSchedule": {
+    "message": "주간·야간 강도 따로 사용"
+  },
+  "enableShortcuts": {
+    "description": "Enable shortcuts option",
+    "message": "단축키 활성화"
+  },
+  "excludedDomains": {
+    "description": "Excluded domains option",
+    "message": "제외 웹사이트"
+  },
+  "exportBackup": {
+    "message": "JSON 내보내기"
+  },
+  "extDescription": {
+    "message": "웹페이지 필터의 색상과 강도를 조절하고 일시 중지와 휴식 알림을 설정하세요."
+  },
+  "extName": {
+    "message": "GrovePage"
+  },
+  "extendBreakFive": {
+    "message": "5분 연장"
+  },
+  "eyeProtectionMode": {
+    "description": "Eye protection mode section title",
+    "message": "아이케어 모드"
+  },
+  "filterApplied": {
+    "message": "이 페이지에 필터가 적용됨"
+  },
+  "filterColors": {
+    "message": "필터 색상"
+  },
+  "filterExcluded": {
+    "message": "이 웹사이트는 필터 규칙에서 제외됨"
+  },
+  "filterMissing": {
+    "message": "이 페이지에서 필터가 감지되지 않음"
+  },
+  "filterOff": {
+    "message": "아이케어 모드가 꺼져 있음"
+  },
+  "filterPaused": {
+    "message": "이 페이지의 필터가 일시 중지됨"
+  },
+  "filterPausedAll": {
+    "message": "모든 탭 일시 중지됨 · $1초 남음"
+  },
+  "filterPausedBoth": {
+    "message": "이 탭에 중복 일시 중지 적용됨 · $1초 남음"
+  },
+  "filterPausedTab": {
+    "message": "현재 탭 일시 중지됨 · $1초 남음"
+  },
+  "filterPending": {
+    "message": "이 페이지의 필터 업데이트 중"
+  },
+  "filterRestricted": {
+    "message": "브라우저가 이 페이지의 필터 적용을 제한함"
+  },
+  "filterBaseStrength": {
+    "message": "기본 강도 $1% 포함"
+  },
+  "filterStrength": {
+    "description": "Filter strength",
+    "message": "필터 강도"
+  },
+  "fixedInterval": {
+    "description": "Fixed interval",
+    "message": "고정 간격"
+  },
+  "forcedRestMessage": {
+    "message": "잠시 화면에서 눈을 떼고 타이머가 끝나면 돌아오세요."
+  },
+  "forcedRestMode": {
+    "description": "Forced rest mode section title",
+    "message": "강제 휴식 모드"
+  },
+  "forcedRestTitle": {
+    "message": "휴식 시간"
+  },
+  "fullscreenReminder": {
+    "description": "Fullscreen rest mode option label",
+    "message": "전체 화면 알림"
+  },
+  "greenColorName": {
+    "message": "연옥색"
+  },
+  "hours": {
+    "description": "Hours unit",
+    "message": "시간"
+  },
+  "importPreview": {
+    "message": "가져오기 미리보기"
+  },
+  "intervalConfigured": {
+    "message": "$1분마다 알림"
+  },
+  "intervalLeft": {
+    "message": "다음 알림까지 $1"
+  },
+  "intervalMinutesLabel": {
+    "message": "간격 (분)"
+  },
+  "language": {
+    "description": "Language selector label",
+    "message": "언어:"
+  },
+  "lavenderPurpleColorName": {
+    "message": "연한 붓꽃색"
+  },
+  "lightGreenColorName": {
+    "message": "새싹색"
+  },
+  "mintGreenColorName": {
+    "message": "안개 민트색"
+  },
+  "minutes": {
+    "description": "Minutes unit",
+    "message": "분"
+  },
+  "moreColors": {
+    "message": "더 많은 색상"
+  },
+  "musicBeautiful": {
+    "message": "숲속의 메아리"
+  },
+  "musicCheerful": {
+    "message": "아침 햇살"
+  },
+  "musicPeaceful": {
+    "message": "잔잔한 물결"
+  },
+  "musicType": {
+    "description": "Music type selection",
+    "message": "음악 유형"
+  },
+  "musicVolume": {
+    "description": "Music volume control",
+    "message": "음량"
+  },
+  "nightStart": {
+    "message": "야간 시작"
+  },
+  "nightStrength": {
+    "message": "야간 강도"
+  },
+  "nonzeroCountdown": {
+    "message": "카운트다운은 최소 1분 이상으로 설정하세요."
+  },
+  "openColorPicker": {
+    "message": "색상 선택 / RGB"
+  },
+  "operationFailed": {
+    "message": "작업에 실패했습니다. 다시 시도해 주세요."
+  },
+  "pause30": {
+    "message": "30초"
+  },
+  "pauseAll": {
+    "message": "모든 탭"
+  },
+  "pauseBreakMusic": {
+    "message": "일시 중지"
+  },
+  "pauseDuration": {
+    "message": "시간"
+  },
+  "pauseFilter": {
+    "message": "필터 일시 중지"
+  },
+  "pauseOptions": {
+    "message": "옵션"
+  },
+  "pauseQuick": {
+    "message": "30초 일시 중지"
+  },
+  "pauseQuickAll": {
+    "message": "모든 탭 $1 일시 중지"
+  },
+  "pauseQuickTab": {
+    "message": "현재 탭 $1 일시 중지"
+  },
+  "pauseScope": {
+    "message": "적용 범위"
+  },
+  "pauseTab": {
+    "message": "현재 탭만"
+  },
+  "pinkColorName": {
+    "message": "옅은 홍조색"
+  },
+  "playBreakMusic": {
+    "message": "재생"
+  },
+  "preferencesSaved": {
+    "message": "설정이 저장되었습니다."
+  },
+  "preferencesSaving": {
+    "message": "저장 중…"
+  },
+  "preferencesUnsaved": {
+    "message": "저장하지 않은 변경 사항"
+  },
+  "presetColors": {
+    "description": "Preset eye care colors",
+    "message": "프리셋 아이케어 색상"
+  },
+  "previewMusic": {
+    "description": "Preview music button",
+    "message": "미리보기"
+  },
+  "projectName": {
+    "message": "GrovePage"
+  },
+  "recheckShort": {
+    "message": "새로고침 후 확인"
+  },
+  "reminderAutoClose": {
+    "message": "$1초 후 자동으로 닫힙니다"
+  },
+  "reminderDisabled": {
+    "message": "휴식 알림이 꺼져 있음"
+  },
+  "reminderMessage": {
+    "description": "Reminder message label",
+    "message": "알림 메시지"
+  },
+  "reminderPreferences": {
+    "message": "알림 설정"
+  },
+  "reminderType": {
+    "description": "Reminder type",
+    "message": "알림 유형"
+  },
+  "restDuration": {
+    "description": "Rest duration selection",
+    "message": "휴식 시간"
+  },
+  "restModeType": {
+    "description": "Rest mode type selection",
+    "message": "휴식 모드 유형"
+  },
+  "restReminder": {
+    "description": "Rest reminder section title",
+    "message": "휴식 알림"
+  },
+  "restTimeRemaining": {
+    "message": "남은 휴식 시간"
+  },
+  "resumeAll": {
+    "message": "모든 탭 지금 다시 시작"
+  },
+  "resumeAllShort": {
+    "message": "모든 탭 다시 시작"
+  },
+  "resumeNow": {
+    "message": "지금 다시 시작"
+  },
+  "resumeTab": {
+    "message": "현재 탭 지금 다시 시작"
+  },
+  "resumeTabShort": {
+    "message": "이 탭 다시 시작"
+  },
+  "rosePinkColorName": {
+    "message": "옅은 베리색"
+  },
+  "savePreferences": {
+    "message": "설정 저장"
+  },
+  "scheduleHint": {
+    "message": "기기의 로컬 시간을 사용하며 주간과 야간에 같은 색상을 적용합니다."
+  },
+  "selectBackup": {
+    "message": "백업 파일 선택"
+  },
+  "settingOff": {
+    "message": "꺼짐"
+  },
+  "settingOn": {
+    "message": "켜짐"
+  },
+  "settingsAbout": {
+    "message": "정보"
+  },
+  "settingsBackup": {
+    "message": "백업 및 복원"
+  },
+  "settingsFilter": {
+    "message": "필터 및 웹사이트"
+  },
+  "settingsGeneral": {
+    "message": "단축키 및 언어"
+  },
+  "shortcutDisabledNotice": {
+    "message": "웹사이트 필터 꺼짐"
+  },
+  "shortcutEnabledNotice": {
+    "message": "웹사이트 필터 켜짐"
+  },
+  "shortcutSettings": {
+    "description": "Shortcut settings section title",
+    "message": "단축키 설정"
+  },
+  "shortcutUnassigned": {
+    "message": "지정되지 않음"
+  },
+  "showShortcutNotifications": {
+    "description": "Show shortcut notifications option",
+    "message": "알림 표시"
+  },
+  "skipConfirmMessage": {
+    "message": "확인하면 휴식 창이 닫힙니다."
+  },
+  "skipConfirmTitle": {
+    "message": "이번 휴식을 종료할까요?"
+  },
+  "specificDomains": {
+    "description": "Specific domains option",
+    "message": "지정 웹사이트"
+  },
+  "startCountdown": {
+    "description": "Start countdown button",
+    "message": "카운트다운 시작"
+  },
+  "stopCountdown": {
+    "description": "Stop countdown button",
+    "message": "카운트다운 중지"
+  },
+  "stopPreview": {
+    "description": "Stop preview button",
+    "message": "정지"
+  },
+  "timerMinutesValue": {
+    "message": "$1분"
+  },
+  "timerStart": {
+    "message": "시작"
+  },
+  "timerStop": {
+    "message": "중지"
+  },
+  "useBaseStrength": {
+    "message": "기본 강도 사용"
+  },
+  "warmOrangeColorName": {
+    "message": "살구색"
+  },
+  "feedbackTitle": {
+    "message": "의견 보내기"
+  },
+  "feedbackIntro": {
+    "message": "문의, 오류 신고 또는 제안은 작성자에게 이메일로 보내 주세요."
+  },
+  "loadedVersionNotice": {
+    "message": "브라우저에서 v$1을 실행 중입니다. 확장 프로그램을 다시 로드하면 현재 패키지 버전이 적용됩니다."
+  },
+  "reloadExtension": {
+    "message": "확장 프로그램 다시 로드"
+  },
+  "supportProject": {
+    "message": "후원하기"
+  },
+  "supportPitch": {
+    "message": "GrovePage가 마음에 드셨나요? 이 작은 잎에 물을 한 방울 주시면 다음 업데이트에 힘이 됩니다."
+  },
+  "supportVoluntary": {
+    "message": "후원은 자유이며 모든 기능은 무료로 이용할 수 있습니다."
+  },
+  "backToFeedback": {
+    "message": "의견 보내기로 돌아가기"
+  },
+  "saveSectionPreferences": {
+    "message": "이 페이지 저장"
+  },
+  "preferencesOtherUnsaved": {
+    "message": "다른 설정에 저장하지 않은 변경 사항이 있습니다."
+  },
+  "domainListRequired": {
+    "message": "올바른 웹사이트 도메인을 하나 이상 입력하세요."
+  },
+  "websiteRulesLink": {
+    "message": "웹사이트 규칙"
+  },
+  "supportWechat": {
+    "message": "위챗페이"
+  },
+  "supportAlipay": {
+    "message": "알리페이"
+  },
+  "viewSupportCode": {
+    "message": "원본 이미지 보기"
+  }
+}

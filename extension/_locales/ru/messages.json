@@ -1,0 +1,608 @@
+{
+  "aboutBackup": {
+    "message": "Экспортируйте цвета, интенсивность, правила для сайтов и настройки напоминаний в JSON. Просмотрите изменения перед восстановлением."
+  },
+  "aboutColorsTitle": {
+    "message": "Цвет и интенсивность для сайтов"
+  },
+  "aboutFeaturesHeading": {
+    "message": "Возможности"
+  },
+  "aboutFilter": {
+    "message": "Выберите цвет RGB или предустановку, задайте отдельную интенсивность для дня и ночи и сохраняйте состояние фильтра между перезапусками браузера."
+  },
+  "aboutProject": {
+    "message": "Настраивайте цвет и интенсивность фильтра для сайтов, правила для доменов, временные паузы и напоминания о перерывах."
+  },
+  "aboutProjectHeading": {
+    "message": "О проекте"
+  },
+  "aboutReminders": {
+    "message": "Выберите фиксированный интервал или обратный отсчёт и задайте своё сообщение. Полноэкранные перерывы и фоновая музыка включаются по желанию."
+  },
+  "aboutScope": {
+    "message": "Включайте или исключайте сайты и проверяйте активную страницу на панели инструментов. Приостанавливайте фильтр на срок от 30 секунд до 5 минут для текущей или всех вкладок."
+  },
+  "aboutScopeTitle": {
+    "message": "Правила для сайтов и временные паузы"
+  },
+  "aboutTitle": {
+    "message": "О GrovePage"
+  },
+  "advancedSettings": {
+    "message": "Расширенные настройки"
+  },
+  "aliceBlueColorName": {
+    "message": "Дождевое небо"
+  },
+  "allDomains": {
+    "description": "All domains option",
+    "message": "Все сайты"
+  },
+  "allowEmergencySkip": {
+    "description": "Allow emergency skip option",
+    "message": "Разрешить экстренный пропуск"
+  },
+  "applyBackup": {
+    "message": "Восстановить настройки"
+  },
+  "backupApplied": {
+    "message": "Настройки восстановлены."
+  },
+  "backupChangeLine": {
+    "message": "$1: $2 → $3"
+  },
+  "backupFormatVersion": {
+    "message": "Версия формата конфигурации $1"
+  },
+  "backupHint": {
+    "message": "Создайте резервную копию сохранённых настроек и просмотрите изменения перед восстановлением."
+  },
+  "backupInvalid": {
+    "message": "Файл резервной копии имеет неверный формат или настройки."
+  },
+  "backupNoChanges": {
+    "message": "Настройки в этом файле совпадают с текущими."
+  },
+  "backupShortcutHint": {
+    "message": "В файле указано сочетание $1. Его можно назначить на странице сочетаний клавиш расширений браузера."
+  },
+  "backupTransfer": {
+    "message": "Экспорт и импорт"
+  },
+  "backupUnsupported": {
+    "message": "Эта версия резервной копии несовместима с данным расширением."
+  },
+  "beigeColorName": {
+    "message": "Пшеничная солома"
+  },
+  "blueColorName": {
+    "message": "Озёрная дымка"
+  },
+  "breakMusicPlayHint": {
+    "message": "Нажмите «Воспроизвести», чтобы включить фоновую музыку."
+  },
+  "cancelBackup": {
+    "message": "Отмена"
+  },
+  "cancelSkip": {
+    "message": "Продолжить отдых"
+  },
+  "checkingFilter": {
+    "message": "Проверка текущей страницы"
+  },
+  "closeReminder": {
+    "message": "Закрыть"
+  },
+  "configureReminder": {
+    "message": "Настройки напоминаний"
+  },
+  "confirmSkip": {
+    "message": "Завершить перерыв"
+  },
+  "countdown": {
+    "description": "Countdown option",
+    "message": "Обратный отсчет"
+  },
+  "countdownHoursLabel": {
+    "message": "Обратный отсчёт (часы)"
+  },
+  "countdownMinutesLabel": {
+    "message": "Обратный отсчёт (минуты)"
+  },
+  "currentShortcut": {
+    "message": "Текущее сочетание: $1"
+  },
+  "customColor": {
+    "description": "Custom color section title",
+    "message": "Пользовательский цвет"
+  },
+  "customColorName": {
+    "description": "Custom color name",
+    "message": "Пользовательский цвет"
+  },
+  "customizeShortcuts": {
+    "description": "Customize shortcuts button",
+    "message": "Настроить сочетания клавиш"
+  },
+  "cyanColorName": {
+    "message": "Бирюзовый туман"
+  },
+  "dayNightStrength": {
+    "message": "Дневная и ночная интенсивность фильтра"
+  },
+  "dayStart": {
+    "message": "Начало дня"
+  },
+  "dayStrength": {
+    "message": "Дневная интенсивность"
+  },
+  "defaultColorName": {
+    "message": "Тёплая бумага"
+  },
+  "defaultReminderMessage": {
+    "message": "Пора сделать перерыв. Встаньте и немного разомнитесь."
+  },
+  "differentScheduleTimes": {
+    "message": "Выберите разное время начала дня и ночи."
+  },
+  "domainControl": {
+    "description": "Domain control section title",
+    "message": "Управление доменами"
+  },
+  "domainList": {
+    "description": "Domain list label",
+    "message": "Список доменов сайтов"
+  },
+  "domainListPlaceholder": {
+    "message": "Указывайте по одному домену на строку или через запятую, например example.com."
+  },
+  "domainMode": {
+    "description": "Domain mode label",
+    "message": "Режим применения"
+  },
+  "domainRuleHint": {
+    "message": "Список сайтов используется в режимах указанных и исключённых сайтов."
+  },
+  "duration10Min": {
+    "description": "10 minutes duration option",
+    "message": "10 минут"
+  },
+  "duration15Min": {
+    "description": "15 minutes duration option",
+    "message": "15 минут"
+  },
+  "duration1Min": {
+    "description": "1 minute duration option",
+    "message": "1 минута"
+  },
+  "duration2Min": {
+    "description": "2 minutes duration option",
+    "message": "2 минуты"
+  },
+  "duration3Min": {
+    "description": "3 minutes duration option",
+    "message": "3 минуты"
+  },
+  "duration5Min": {
+    "description": "5 minutes duration option",
+    "message": "5 минут"
+  },
+  "emergencySkip": {
+    "description": "Emergency skip button",
+    "message": "Экстренный пропуск"
+  },
+  "emptySetting": {
+    "message": "Пусто"
+  },
+  "enableCustomColor": {
+    "description": "Enable custom color checkbox",
+    "message": "Включить пользовательский цвет"
+  },
+  "enableForcedRest": {
+    "description": "Enable forced rest mode",
+    "message": "Включить режим принудительного отдыха"
+  },
+  "enableMusic": {
+    "description": "Enable music option",
+    "message": "Включить музыку"
+  },
+  "enableRestReminder": {
+    "description": "Enable rest reminder",
+    "message": "Включить напоминание об отдыхе"
+  },
+  "enableSchedule": {
+    "message": "Задать разную интенсивность для дня и ночи"
+  },
+  "enableShortcuts": {
+    "description": "Enable shortcuts option",
+    "message": "Включить сочетания клавиш"
+  },
+  "excludedDomains": {
+    "description": "Excluded domains option",
+    "message": "Исключённые сайты"
+  },
+  "exportBackup": {
+    "message": "Экспорт JSON"
+  },
+  "extDescription": {
+    "message": "Настройте цвет и силу фильтра сайтов, временную паузу и напоминания о перерывах."
+  },
+  "extName": {
+    "message": "GrovePage"
+  },
+  "extendBreakFive": {
+    "message": "Продлить на 5 минут"
+  },
+  "eyeProtectionMode": {
+    "description": "Eye protection mode title",
+    "message": "Режим защиты глаз"
+  },
+  "filterApplied": {
+    "message": "Фильтр применён к этой странице"
+  },
+  "filterColors": {
+    "message": "Цвет фильтра"
+  },
+  "filterExcluded": {
+    "message": "Этот сайт не входит в правила фильтра"
+  },
+  "filterMissing": {
+    "message": "Фильтр на этой странице не обнаружен"
+  },
+  "filterOff": {
+    "message": "Защита глаз отключена"
+  },
+  "filterPaused": {
+    "message": "Фильтр на этой странице приостановлен"
+  },
+  "filterPausedAll": {
+    "message": "Все вкладки на паузе · осталось $1 с"
+  },
+  "filterPausedBoth": {
+    "message": "Пересекающиеся паузы на вкладке · осталось $1 с"
+  },
+  "filterPausedTab": {
+    "message": "Текущая вкладка на паузе · осталось $1 с"
+  },
+  "filterPending": {
+    "message": "Обновление фильтра на этой странице"
+  },
+  "filterRestricted": {
+    "message": "Браузер ограничивает работу фильтра на этой странице"
+  },
+  "filterBaseStrength": {
+    "message": "Базовая сила $1%"
+  },
+  "filterStrength": {
+    "description": "Filter strength label",
+    "message": "Интенсивность фильтра"
+  },
+  "fixedInterval": {
+    "description": "Fixed interval option",
+    "message": "Фиксированный интервал"
+  },
+  "forcedRestMessage": {
+    "message": "Отойдите ненадолго от экрана и вернитесь по окончании таймера."
+  },
+  "forcedRestMode": {
+    "description": "Forced rest mode section title",
+    "message": "Режим принудительного отдыха"
+  },
+  "forcedRestTitle": {
+    "message": "Время перерыва"
+  },
+  "fullscreenReminder": {
+    "description": "Label for fullscreen rest mode option",
+    "message": "Полноэкранное напоминание"
+  },
+  "greenColorName": {
+    "message": "Мягкий нефрит"
+  },
+  "hours": {
+    "description": "Hours unit",
+    "message": "часов"
+  },
+  "importPreview": {
+    "message": "Предпросмотр импорта"
+  },
+  "intervalConfigured": {
+    "message": "Напоминать каждые $1 мин"
+  },
+  "intervalLeft": {
+    "message": "Следующее напоминание через $1"
+  },
+  "intervalMinutesLabel": {
+    "message": "Интервал (минуты)"
+  },
+  "language": {
+    "description": "Language selector label",
+    "message": "Язык:"
+  },
+  "lavenderPurpleColorName": {
+    "message": "Бледный ирис"
+  },
+  "lightGreenColorName": {
+    "message": "Весенний росток"
+  },
+  "mintGreenColorName": {
+    "message": "Мятная дымка"
+  },
+  "minutes": {
+    "description": "Minutes unit",
+    "message": "минут"
+  },
+  "moreColors": {
+    "message": "Больше цветов"
+  },
+  "musicBeautiful": {
+    "message": "Лесное эхо"
+  },
+  "musicCheerful": {
+    "message": "Утренний свет"
+  },
+  "musicPeaceful": {
+    "message": "Тихая вода"
+  },
+  "musicType": {
+    "description": "Music type selection",
+    "message": "Тип музыки"
+  },
+  "musicVolume": {
+    "description": "Music volume control",
+    "message": "Громкость"
+  },
+  "nightStart": {
+    "message": "Начало ночи"
+  },
+  "nightStrength": {
+    "message": "Ночная интенсивность"
+  },
+  "nonzeroCountdown": {
+    "message": "Установите обратный отсчёт минимум на одну минуту."
+  },
+  "openColorPicker": {
+    "message": "Выбор цвета / RGB"
+  },
+  "operationFailed": {
+    "message": "Не удалось выполнить операцию. Повторите попытку."
+  },
+  "pause30": {
+    "message": "30 секунд"
+  },
+  "pauseAll": {
+    "message": "Все вкладки"
+  },
+  "pauseBreakMusic": {
+    "message": "Пауза"
+  },
+  "pauseDuration": {
+    "message": "Длительность"
+  },
+  "pauseFilter": {
+    "message": "Пауза фильтра"
+  },
+  "pauseOptions": {
+    "message": "Параметры"
+  },
+  "pauseQuick": {
+    "message": "Пауза на 30 с"
+  },
+  "pauseQuickAll": {
+    "message": "Пауза для всех вкладок на $1"
+  },
+  "pauseQuickTab": {
+    "message": "Пауза для текущей вкладки на $1"
+  },
+  "pauseScope": {
+    "message": "Область"
+  },
+  "pauseTab": {
+    "message": "Только текущая вкладка"
+  },
+  "pinkColorName": {
+    "message": "Лёгкий румянец"
+  },
+  "playBreakMusic": {
+    "message": "Воспроизвести"
+  },
+  "preferencesSaved": {
+    "message": "Настройки сохранены."
+  },
+  "preferencesSaving": {
+    "message": "Сохранение…"
+  },
+  "preferencesUnsaved": {
+    "message": "Есть несохранённые изменения"
+  },
+  "presetColors": {
+    "description": "Preset colors section title",
+    "message": "Предустановленные цвета"
+  },
+  "previewMusic": {
+    "description": "Preview music button",
+    "message": "Прослушать"
+  },
+  "projectName": {
+    "message": "GrovePage"
+  },
+  "recheckShort": {
+    "message": "Обновить и проверить"
+  },
+  "reminderAutoClose": {
+    "message": "Автоматически закроется через $1 с"
+  },
+  "reminderDisabled": {
+    "message": "Напоминания о перерывах отключены"
+  },
+  "reminderMessage": {
+    "description": "Reminder message label",
+    "message": "Сообщение напоминания"
+  },
+  "reminderPreferences": {
+    "message": "Настройки напоминаний"
+  },
+  "reminderType": {
+    "description": "Reminder type label",
+    "message": "Тип напоминания"
+  },
+  "restDuration": {
+    "description": "Rest duration selection",
+    "message": "Длительность отдыха"
+  },
+  "restModeType": {
+    "description": "Rest mode type selection",
+    "message": "Тип режима отдыха"
+  },
+  "restReminder": {
+    "description": "Rest reminder section title",
+    "message": "Напоминание об отдыхе"
+  },
+  "restTimeRemaining": {
+    "message": "Осталось до конца перерыва"
+  },
+  "resumeAll": {
+    "message": "Возобновить все вкладки сейчас"
+  },
+  "resumeAllShort": {
+    "message": "Возобновить все"
+  },
+  "resumeNow": {
+    "message": "Возобновить сейчас"
+  },
+  "resumeTab": {
+    "message": "Возобновить текущую вкладку сейчас"
+  },
+  "resumeTabShort": {
+    "message": "Возобновить вкладку"
+  },
+  "rosePinkColorName": {
+    "message": "Ягодный оттенок"
+  },
+  "savePreferences": {
+    "message": "Сохранить настройки"
+  },
+  "scheduleHint": {
+    "message": "Используется местное время устройства и один и тот же цвет для обоих периодов."
+  },
+  "selectBackup": {
+    "message": "Выбрать файл копии"
+  },
+  "settingOff": {
+    "message": "Выкл."
+  },
+  "settingOn": {
+    "message": "Вкл."
+  },
+  "settingsAbout": {
+    "message": "О расширении"
+  },
+  "settingsBackup": {
+    "message": "Резервная копия"
+  },
+  "settingsFilter": {
+    "message": "Фильтр и сайты"
+  },
+  "settingsGeneral": {
+    "message": "Клавиши и язык"
+  },
+  "shortcutDisabledNotice": {
+    "message": "Фильтр сайтов выключен"
+  },
+  "shortcutEnabledNotice": {
+    "message": "Фильтр сайтов включён"
+  },
+  "shortcutSettings": {
+    "description": "Shortcut settings section title",
+    "message": "Настройки сочетаний клавиш"
+  },
+  "shortcutUnassigned": {
+    "message": "Не назначено"
+  },
+  "showShortcutNotifications": {
+    "description": "Show shortcut notifications option",
+    "message": "Показывать уведомления"
+  },
+  "skipConfirmMessage": {
+    "message": "Подтвердите, чтобы закрыть окно перерыва."
+  },
+  "skipConfirmTitle": {
+    "message": "Завершить перерыв?"
+  },
+  "specificDomains": {
+    "description": "Specific domains option",
+    "message": "Указанные сайты"
+  },
+  "startCountdown": {
+    "description": "Start countdown button",
+    "message": "Начать обратный отсчет"
+  },
+  "stopCountdown": {
+    "description": "Stop countdown button",
+    "message": "Остановить обратный отсчет"
+  },
+  "stopPreview": {
+    "description": "Stop preview button",
+    "message": "Стоп"
+  },
+  "timerMinutesValue": {
+    "message": "$1 мин"
+  },
+  "timerStart": {
+    "message": "Старт"
+  },
+  "timerStop": {
+    "message": "Стоп"
+  },
+  "useBaseStrength": {
+    "message": "Использовать базовую интенсивность"
+  },
+  "warmOrangeColorName": {
+    "message": "Абрикос"
+  },
+  "feedbackTitle": {
+    "message": "Обратная связь"
+  },
+  "feedbackIntro": {
+    "message": "Отправьте автору письмо с вопросом, сообщением об ошибке или предложением."
+  },
+  "loadedVersionNotice": {
+    "message": "Браузер использует v$1. Перезагрузите расширение, чтобы применить текущую версию пакета."
+  },
+  "reloadExtension": {
+    "message": "Перезагрузить расширение"
+  },
+  "supportProject": {
+    "message": "Поддержать"
+  },
+  "supportPitch": {
+    "message": "Нравится GrovePage? Капля воды для этого листочка поможет вырасти следующему обновлению."
+  },
+  "supportVoluntary": {
+    "message": "Поддержка добровольна. Все функции GrovePage доступны бесплатно."
+  },
+  "backToFeedback": {
+    "message": "К обратной связи"
+  },
+  "saveSectionPreferences": {
+    "message": "Сохранить раздел"
+  },
+  "preferencesOtherUnsaved": {
+    "message": "В других разделах есть несохранённые изменения."
+  },
+  "domainListRequired": {
+    "message": "Введите хотя бы один допустимый домен сайта."
+  },
+  "websiteRulesLink": {
+    "message": "Правила для сайтов"
+  },
+  "supportWechat": {
+    "message": "WeChat Pay"
+  },
+  "supportAlipay": {
+    "message": "Alipay"
+  },
+  "viewSupportCode": {
+    "message": "Открыть оригинал"
+  }
+}

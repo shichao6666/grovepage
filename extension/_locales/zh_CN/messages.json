@@ -1,0 +1,608 @@
+{
+  "aboutBackup": {
+    "message": "将颜色、强度、网站规则和提醒偏好导出为 JSON，导入时先预览改动，再确认恢复。"
+  },
+  "aboutColorsTitle": {
+    "message": "网页颜色与强度"
+  },
+  "aboutFeaturesHeading": {
+    "message": "功能一览"
+  },
+  "aboutFilter": {
+    "message": "使用预设色或自定义 RGB 颜色。可为白天和夜间分别设定强度，浏览器重启后会记住全局护眼开关。"
+  },
+  "aboutProject": {
+    "message": "为网页添加可调颜色与强度的滤镜，支持按网站应用、临时暂停和休息提醒。"
+  },
+  "aboutProjectHeading": {
+    "message": "项目简介"
+  },
+  "aboutReminders": {
+    "message": "选择固定间隔或倒计时，设置提示语。也可以启用全屏休息和背景音。"
+  },
+  "aboutScope": {
+    "message": "指定或排除网站，在弹窗查看当前页状态。可以暂停当前标签页或所有标签页，时长为 30 秒到 5 分钟。"
+  },
+  "aboutScopeTitle": {
+    "message": "网站规则与临时暂停"
+  },
+  "aboutTitle": {
+    "message": "关于森页护眼"
+  },
+  "advancedSettings": {
+    "message": "高级设置"
+  },
+  "aliceBlueColorName": {
+    "message": "灰雨蓝"
+  },
+  "allDomains": {
+    "description": "All domains option",
+    "message": "所有"
+  },
+  "allowEmergencySkip": {
+    "description": "Allow emergency skip option",
+    "message": "允许紧急跳过"
+  },
+  "applyBackup": {
+    "message": "确认恢复"
+  },
+  "backupApplied": {
+    "message": "配置已恢复。"
+  },
+  "backupChangeLine": {
+    "message": "$1：$2 → $3"
+  },
+  "backupFormatVersion": {
+    "message": "配置格式版本 $1"
+  },
+  "backupHint": {
+    "message": "备份已保存的设置。恢复前可预览变化。"
+  },
+  "backupInvalid": {
+    "message": "备份文件格式有误或包含无效设置。"
+  },
+  "backupNoChanges": {
+    "message": "文件中的偏好与当前设置一致。"
+  },
+  "backupShortcutHint": {
+    "message": "文件记录的快捷键为 $1，可在浏览器的扩展快捷键页面手动绑定。"
+  },
+  "backupTransfer": {
+    "message": "导出与导入"
+  },
+  "backupUnsupported": {
+    "message": "此备份版本与当前扩展不兼容。"
+  },
+  "beigeColorName": {
+    "message": "麦穗色"
+  },
+  "blueColorName": {
+    "message": "淡湖蓝"
+  },
+  "breakMusicPlayHint": {
+    "message": "点击「播放」开始背景音。"
+  },
+  "cancelBackup": {
+    "message": "取消"
+  },
+  "cancelSkip": {
+    "message": "继续休息"
+  },
+  "checkingFilter": {
+    "message": "正在检查当前网页"
+  },
+  "closeReminder": {
+    "message": "知道了"
+  },
+  "configureReminder": {
+    "message": "提醒设置"
+  },
+  "confirmSkip": {
+    "message": "结束休息"
+  },
+  "countdown": {
+    "description": "Countdown option",
+    "message": "倒计时"
+  },
+  "countdownHoursLabel": {
+    "message": "倒计时（小时）"
+  },
+  "countdownMinutesLabel": {
+    "message": "倒计时（分钟）"
+  },
+  "currentShortcut": {
+    "message": "当前绑定 $1"
+  },
+  "customColor": {
+    "description": "Custom color section title",
+    "message": "自定义护眼色"
+  },
+  "customColorName": {
+    "description": "Custom color name",
+    "message": "自定义护眼色"
+  },
+  "customizeShortcuts": {
+    "description": "Customize shortcuts button",
+    "message": "自定义快捷键"
+  },
+  "cyanColorName": {
+    "message": "青雾"
+  },
+  "dayNightStrength": {
+    "message": "昼夜滤镜强度"
+  },
+  "dayStart": {
+    "message": "白天开始"
+  },
+  "dayStrength": {
+    "message": "白天强度"
+  },
+  "defaultColorName": {
+    "message": "暖纸色"
+  },
+  "defaultReminderMessage": {
+    "message": "到休息时间了，起身走走吧。"
+  },
+  "differentScheduleTimes": {
+    "message": "白天和夜间的开始时间必须不同。"
+  },
+  "domainControl": {
+    "description": "Domain control section title",
+    "message": "作用网站"
+  },
+  "domainList": {
+    "description": "Domain list label",
+    "message": "网站域名列表"
+  },
+  "domainListPlaceholder": {
+    "message": "每行一个域名，也可以使用逗号分隔，例如 example.com。"
+  },
+  "domainMode": {
+    "description": "Domain mode label",
+    "message": "作用模式"
+  },
+  "domainRuleHint": {
+    "message": "网站名单用于指定或排除模式。"
+  },
+  "duration10Min": {
+    "description": "10 minutes duration option",
+    "message": "10分钟"
+  },
+  "duration15Min": {
+    "description": "15 minutes duration option",
+    "message": "15分钟"
+  },
+  "duration1Min": {
+    "description": "1 minute duration option",
+    "message": "1分钟"
+  },
+  "duration2Min": {
+    "description": "2 minutes duration option",
+    "message": "2分钟"
+  },
+  "duration3Min": {
+    "description": "3 minutes duration option",
+    "message": "3分钟"
+  },
+  "duration5Min": {
+    "description": "5 minutes duration option",
+    "message": "5分钟"
+  },
+  "emergencySkip": {
+    "description": "Emergency skip button",
+    "message": "紧急跳过"
+  },
+  "emptySetting": {
+    "message": "空白"
+  },
+  "enableCustomColor": {
+    "description": "Enable custom color checkbox",
+    "message": "启用自定义护眼色"
+  },
+  "enableForcedRest": {
+    "description": "Enable forced rest mode",
+    "message": "启用强制休息模式"
+  },
+  "enableMusic": {
+    "description": "Enable music option",
+    "message": "开启音乐"
+  },
+  "enableRestReminder": {
+    "description": "Enable rest reminder",
+    "message": "开启休息提醒"
+  },
+  "enableSchedule": {
+    "message": "按时段调节强度"
+  },
+  "enableShortcuts": {
+    "description": "Enable shortcuts option",
+    "message": "启用快捷键"
+  },
+  "excludedDomains": {
+    "description": "Excluded domains option",
+    "message": "排除"
+  },
+  "exportBackup": {
+    "message": "导出 JSON"
+  },
+  "extDescription": {
+    "message": "为网页添加可调颜色与强度的滤镜，支持按网站应用、临时暂停和休息提醒。"
+  },
+  "extName": {
+    "message": "森页护眼"
+  },
+  "extendBreakFive": {
+    "message": "延长 5 分钟"
+  },
+  "eyeProtectionMode": {
+    "description": "Eye protection mode title",
+    "message": "护眼模式"
+  },
+  "filterApplied": {
+    "message": "当前网页滤镜已应用"
+  },
+  "filterColors": {
+    "message": "护眼颜色"
+  },
+  "filterExcluded": {
+    "message": "当前网站不在护眼范围内"
+  },
+  "filterMissing": {
+    "message": "未检测到当前网页的滤镜"
+  },
+  "filterOff": {
+    "message": "全局护眼已关闭"
+  },
+  "filterPaused": {
+    "message": "当前网页滤镜已暂停"
+  },
+  "filterPausedAll": {
+    "message": "所有标签页已暂停 · 剩余 $1 秒"
+  },
+  "filterPausedBoth": {
+    "message": "当前标签页重叠暂停 · 剩余 $1 秒"
+  },
+  "filterPausedTab": {
+    "message": "当前标签页已暂停 · 剩余 $1 秒"
+  },
+  "filterPending": {
+    "message": "正在更新当前网页滤镜"
+  },
+  "filterRestricted": {
+    "message": "浏览器限制此页面应用滤镜"
+  },
+  "filterBaseStrength": {
+    "message": "含 $1% 基础值"
+  },
+  "filterStrength": {
+    "description": "Filter strength label",
+    "message": "滤镜强度"
+  },
+  "fixedInterval": {
+    "description": "Fixed interval option",
+    "message": "固定间隔"
+  },
+  "forcedRestMessage": {
+    "message": "离开屏幕一会儿，等这段休息结束再继续。"
+  },
+  "forcedRestMode": {
+    "description": "Forced rest mode section title",
+    "message": "强制休息模式"
+  },
+  "forcedRestTitle": {
+    "message": "休息时间"
+  },
+  "fullscreenReminder": {
+    "description": "全屏休息模式选项标签",
+    "message": "全屏提醒"
+  },
+  "greenColorName": {
+    "message": "豆沙绿"
+  },
+  "hours": {
+    "description": "Hours unit",
+    "message": "小时"
+  },
+  "importPreview": {
+    "message": "导入预览"
+  },
+  "intervalConfigured": {
+    "message": "每 $1 分钟提醒"
+  },
+  "intervalLeft": {
+    "message": "距离下次提醒 $1"
+  },
+  "intervalMinutesLabel": {
+    "message": "间隔（分钟）"
+  },
+  "language": {
+    "description": "Language selector label",
+    "message": "语言:"
+  },
+  "lavenderPurpleColorName": {
+    "message": "淡鸢尾"
+  },
+  "lightGreenColorName": {
+    "message": "嫩芽绿"
+  },
+  "mintGreenColorName": {
+    "message": "雾薄荷"
+  },
+  "minutes": {
+    "description": "Minutes unit",
+    "message": "分钟"
+  },
+  "moreColors": {
+    "message": "更多颜色"
+  },
+  "musicBeautiful": {
+    "message": "林间回响"
+  },
+  "musicCheerful": {
+    "message": "晨光"
+  },
+  "musicPeaceful": {
+    "message": "静水"
+  },
+  "musicType": {
+    "description": "Music type selection",
+    "message": "音乐类型"
+  },
+  "musicVolume": {
+    "description": "Music volume control",
+    "message": "音量"
+  },
+  "nightStart": {
+    "message": "夜间开始"
+  },
+  "nightStrength": {
+    "message": "夜间强度"
+  },
+  "nonzeroCountdown": {
+    "message": "倒计时至少要有 1 分钟。"
+  },
+  "openColorPicker": {
+    "message": "选色 / RGB"
+  },
+  "operationFailed": {
+    "message": "操作未完成，请重试。"
+  },
+  "pause30": {
+    "message": "30 秒"
+  },
+  "pauseAll": {
+    "message": "所有标签页"
+  },
+  "pauseBreakMusic": {
+    "message": "暂停"
+  },
+  "pauseDuration": {
+    "message": "时长"
+  },
+  "pauseFilter": {
+    "message": "暂停滤镜"
+  },
+  "pauseOptions": {
+    "message": "选项"
+  },
+  "pauseQuick": {
+    "message": "暂停 30 秒"
+  },
+  "pauseQuickAll": {
+    "message": "暂停所有标签页 $1"
+  },
+  "pauseQuickTab": {
+    "message": "暂停当前标签页 $1"
+  },
+  "pauseScope": {
+    "message": "范围"
+  },
+  "pauseTab": {
+    "message": "仅当前标签页"
+  },
+  "pinkColorName": {
+    "message": "浅胭脂"
+  },
+  "playBreakMusic": {
+    "message": "播放"
+  },
+  "preferencesSaved": {
+    "message": "设置已保存。"
+  },
+  "preferencesSaving": {
+    "message": "正在保存…"
+  },
+  "preferencesUnsaved": {
+    "message": "有未保存的更改"
+  },
+  "presetColors": {
+    "description": "Preset colors section title",
+    "message": "预设护眼色"
+  },
+  "previewMusic": {
+    "description": "Preview music button",
+    "message": "预览"
+  },
+  "projectName": {
+    "message": "森页护眼"
+  },
+  "recheckShort": {
+    "message": "刷新重查"
+  },
+  "reminderAutoClose": {
+    "message": "$1 秒后自动关闭"
+  },
+  "reminderDisabled": {
+    "message": "休息提醒未开启"
+  },
+  "reminderMessage": {
+    "description": "Reminder message label",
+    "message": "提醒提示语"
+  },
+  "reminderPreferences": {
+    "message": "提醒设置"
+  },
+  "reminderType": {
+    "description": "Reminder type label",
+    "message": "提醒方式"
+  },
+  "restDuration": {
+    "description": "Rest duration selection",
+    "message": "休息时长"
+  },
+  "restModeType": {
+    "description": "Rest mode type selection",
+    "message": "休息模式类型"
+  },
+  "restReminder": {
+    "description": "Rest reminder section title",
+    "message": "休息提醒"
+  },
+  "restTimeRemaining": {
+    "message": "剩余休息时间"
+  },
+  "resumeAll": {
+    "message": "解除所有标签页暂停"
+  },
+  "resumeAllShort": {
+    "message": "恢复全部"
+  },
+  "resumeNow": {
+    "message": "立即恢复"
+  },
+  "resumeTab": {
+    "message": "立即恢复当前标签页"
+  },
+  "resumeTabShort": {
+    "message": "恢复当前页"
+  },
+  "rosePinkColorName": {
+    "message": "淡莓粉"
+  },
+  "savePreferences": {
+    "message": "保存设置"
+  },
+  "scheduleHint": {
+    "message": "使用设备本地时间，白天与夜间共用一种颜色。"
+  },
+  "selectBackup": {
+    "message": "选择备份文件"
+  },
+  "settingOff": {
+    "message": "关闭"
+  },
+  "settingOn": {
+    "message": "开启"
+  },
+  "settingsAbout": {
+    "message": "关于"
+  },
+  "settingsBackup": {
+    "message": "备份与恢复"
+  },
+  "settingsFilter": {
+    "message": "护眼与网站"
+  },
+  "settingsGeneral": {
+    "message": "快捷键与语言"
+  },
+  "shortcutDisabledNotice": {
+    "message": "网页护眼滤镜已关闭"
+  },
+  "shortcutEnabledNotice": {
+    "message": "网页护眼滤镜已开启"
+  },
+  "shortcutSettings": {
+    "description": "Shortcut settings section title",
+    "message": "快捷键设置"
+  },
+  "shortcutUnassigned": {
+    "message": "未绑定"
+  },
+  "showShortcutNotifications": {
+    "description": "Show shortcut notifications option",
+    "message": "显示操作提示"
+  },
+  "skipConfirmMessage": {
+    "message": "确认后关闭休息窗口。"
+  },
+  "skipConfirmTitle": {
+    "message": "结束本次休息？"
+  },
+  "specificDomains": {
+    "description": "Specific domains option",
+    "message": "指定"
+  },
+  "startCountdown": {
+    "description": "Start countdown button",
+    "message": "开始倒计时"
+  },
+  "stopCountdown": {
+    "description": "Stop countdown button",
+    "message": "停止倒计时"
+  },
+  "stopPreview": {
+    "description": "Stop preview button",
+    "message": "停止"
+  },
+  "timerMinutesValue": {
+    "message": "$1 分钟"
+  },
+  "timerStart": {
+    "message": "开始"
+  },
+  "timerStop": {
+    "message": "停止"
+  },
+  "useBaseStrength": {
+    "message": "使用统一强度"
+  },
+  "warmOrangeColorName": {
+    "message": "杏桃色"
+  },
+  "feedbackTitle": {
+    "message": "意见反馈"
+  },
+  "feedbackIntro": {
+    "message": "有使用问题、故障报告或改进建议，可以发邮件联系作者。"
+  },
+  "loadedVersionNotice": {
+    "message": "浏览器当前加载的是 v$1。重新加载扩展后，运行版本会与当前扩展包一致。"
+  },
+  "reloadExtension": {
+    "message": "重新加载扩展"
+  },
+  "supportProject": {
+    "message": "捐献支持"
+  },
+  "supportPitch": {
+    "message": "用得顺手的话，欢迎给森页这片小叶子浇点水。每一份支持，都能给下一次更新添点动力。"
+  },
+  "supportVoluntary": {
+    "message": "随心支持，森页护眼的所有功能均可免费使用。"
+  },
+  "backToFeedback": {
+    "message": "返回意见反馈"
+  },
+  "saveSectionPreferences": {
+    "message": "保存本页"
+  },
+  "preferencesOtherUnsaved": {
+    "message": "其他分类有未保存的更改。"
+  },
+  "domainListRequired": {
+    "message": "请至少填写一个有效的网站域名。"
+  },
+  "websiteRulesLink": {
+    "message": "网站规则"
+  },
+  "supportWechat": {
+    "message": "微信支付"
+  },
+  "supportAlipay": {
+    "message": "支付宝"
+  },
+  "viewSupportCode": {
+    "message": "查看原图"
+  }
+}

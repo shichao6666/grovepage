@@ -1,0 +1,608 @@
+{
+  "aboutBackup": {
+    "message": "色、強度、サイトルール、リマインダー設定を JSON にエクスポートできます。復元前に変更内容をプレビューで確認できます。"
+  },
+  "aboutColorsTitle": {
+    "message": "ウェブページの色と強度"
+  },
+  "aboutFeaturesHeading": {
+    "message": "主な機能"
+  },
+  "aboutFilter": {
+    "message": "プリセット色やカスタム RGB カラーを選び、昼と夜で別々の強度を設定できます。全体のフィルター設定はブラウザ再起動後も保持されます。"
+  },
+  "aboutProject": {
+    "message": "ウェブページのフィルター色と強度を調整でき、サイトルール、一時停止、休憩リマインダーにも対応しています。"
+  },
+  "aboutProjectHeading": {
+    "message": "プロジェクト概要"
+  },
+  "aboutReminders": {
+    "message": "固定間隔またはカウントダウンを選び、自由なメッセージを設定できます。フルスクリーン休憩や背景音もオプションで利用できます。"
+  },
+  "aboutScope": {
+    "message": "対象サイトを指定・除外し、ツールバーで現在のページ状態を確認できます。現在のタブまたはすべてのタブで 30 秒〜5 分間フィルターを一時停止できます。"
+  },
+  "aboutScopeTitle": {
+    "message": "サイトルールと一時停止"
+  },
+  "aboutTitle": {
+    "message": "GrovePage について"
+  },
+  "advancedSettings": {
+    "message": "詳細設定"
+  },
+  "aliceBlueColorName": {
+    "message": "雨空色"
+  },
+  "allDomains": {
+    "description": "All domains option",
+    "message": "すべてのサイト"
+  },
+  "allowEmergencySkip": {
+    "description": "Allow emergency skip option",
+    "message": "緊急スキップを許可"
+  },
+  "applyBackup": {
+    "message": "設定を復元"
+  },
+  "backupApplied": {
+    "message": "設定を復元しました。"
+  },
+  "backupChangeLine": {
+    "message": "$1: $2 → $3"
+  },
+  "backupFormatVersion": {
+    "message": "設定フォーマット バージョン $1"
+  },
+  "backupHint": {
+    "message": "保存済みの設定をバックアップし、復元前に変更内容をプレビューできます。"
+  },
+  "backupInvalid": {
+    "message": "バックアップファイルの形式または設定内容が無効です。"
+  },
+  "backupNoChanges": {
+    "message": "このファイルの設定は現在の設定と同じです。"
+  },
+  "backupShortcutHint": {
+    "message": "ファイルには $1 が記録されています。ブラウザの拡張機能ショートカット設定ページで割り当てできます。"
+  },
+  "backupTransfer": {
+    "message": "エクスポートとインポート"
+  },
+  "backupUnsupported": {
+    "message": "このバックアップバージョンは現在の拡張機能と互換性がありません。"
+  },
+  "beigeColorName": {
+    "message": "麦わら色"
+  },
+  "blueColorName": {
+    "message": "湖の淡青"
+  },
+  "breakMusicPlayHint": {
+    "message": "「再生」を押すと背景音が始まります。"
+  },
+  "cancelBackup": {
+    "message": "キャンセル"
+  },
+  "cancelSkip": {
+    "message": "休憩を続ける"
+  },
+  "checkingFilter": {
+    "message": "現在のページを確認中"
+  },
+  "closeReminder": {
+    "message": "閉じる"
+  },
+  "configureReminder": {
+    "message": "リマインダー設定"
+  },
+  "confirmSkip": {
+    "message": "休憩を終了"
+  },
+  "countdown": {
+    "description": "Countdown",
+    "message": "カウントダウン"
+  },
+  "countdownHoursLabel": {
+    "message": "カウントダウン（時間）"
+  },
+  "countdownMinutesLabel": {
+    "message": "カウントダウン（分）"
+  },
+  "currentShortcut": {
+    "message": "現在のショートカット: $1"
+  },
+  "customColor": {
+    "description": "Custom color",
+    "message": "カスタムカラー"
+  },
+  "customColorName": {
+    "description": "Custom color name",
+    "message": "カスタム"
+  },
+  "customizeShortcuts": {
+    "description": "Customize shortcuts button",
+    "message": "ショートカットをカスタマイズ"
+  },
+  "cyanColorName": {
+    "message": "青緑の霧"
+  },
+  "dayNightStrength": {
+    "message": "昼夜のフィルター強度"
+  },
+  "dayStart": {
+    "message": "昼の開始時刻"
+  },
+  "dayStrength": {
+    "message": "昼の強度"
+  },
+  "defaultColorName": {
+    "message": "暖かな紙色"
+  },
+  "defaultReminderMessage": {
+    "message": "休憩時間です。少し立ち上がって体を動かしましょう。"
+  },
+  "differentScheduleTimes": {
+    "message": "昼と夜には異なる開始時刻を設定してください。"
+  },
+  "domainControl": {
+    "description": "Domain control section title",
+    "message": "ドメイン制御"
+  },
+  "domainList": {
+    "description": "Domain list label",
+    "message": "サイトドメインリスト"
+  },
+  "domainListPlaceholder": {
+    "message": "1行に1ドメイン、またはカンマ区切りで入力（例: example.com）"
+  },
+  "domainMode": {
+    "description": "Domain mode label",
+    "message": "適用モード"
+  },
+  "domainRuleHint": {
+    "message": "サイトリストは「指定サイト」および「除外サイト」モードで使用されます。"
+  },
+  "duration10Min": {
+    "description": "10 minutes duration option",
+    "message": "10分"
+  },
+  "duration15Min": {
+    "description": "15 minutes duration option",
+    "message": "15分"
+  },
+  "duration1Min": {
+    "description": "1 minute duration option",
+    "message": "1分"
+  },
+  "duration2Min": {
+    "description": "2 minutes duration option",
+    "message": "2分"
+  },
+  "duration3Min": {
+    "description": "3 minutes duration option",
+    "message": "3分"
+  },
+  "duration5Min": {
+    "description": "5 minutes duration option",
+    "message": "5分"
+  },
+  "emergencySkip": {
+    "description": "Emergency skip button",
+    "message": "緊急スキップ"
+  },
+  "emptySetting": {
+    "message": "空"
+  },
+  "enableCustomColor": {
+    "description": "Enable custom color",
+    "message": "カスタムカラーを有効にする"
+  },
+  "enableForcedRest": {
+    "description": "Enable forced rest mode",
+    "message": "強制休憩を有効にする"
+  },
+  "enableMusic": {
+    "description": "Enable music option",
+    "message": "音楽を有効にする"
+  },
+  "enableRestReminder": {
+    "description": "Enable rest reminder",
+    "message": "休憩リマインダーを有効にする"
+  },
+  "enableSchedule": {
+    "message": "昼と夜で別々の強度を使う"
+  },
+  "enableShortcuts": {
+    "description": "Enable shortcuts option",
+    "message": "ショートカットを有効にする"
+  },
+  "excludedDomains": {
+    "description": "Excluded domains option",
+    "message": "除外サイト"
+  },
+  "exportBackup": {
+    "message": "JSON をエクスポート"
+  },
+  "extDescription": {
+    "message": "ウェブページの色と強度を調整し、一時停止や休憩の通知を設定できます。"
+  },
+  "extName": {
+    "message": "GrovePage"
+  },
+  "extendBreakFive": {
+    "message": "5分延長"
+  },
+  "eyeProtectionMode": {
+    "description": "Eye protection mode section title",
+    "message": "アイケアモード"
+  },
+  "filterApplied": {
+    "message": "このページにフィルターを適用中"
+  },
+  "filterColors": {
+    "message": "フィルターカラー"
+  },
+  "filterExcluded": {
+    "message": "このサイトはフィルター対象外です"
+  },
+  "filterMissing": {
+    "message": "このページでフィルターが検出されません"
+  },
+  "filterOff": {
+    "message": "アイケアモードはオフです"
+  },
+  "filterPaused": {
+    "message": "このページのフィルターを一時停止中"
+  },
+  "filterPausedAll": {
+    "message": "全タブ一時停止中 · 残り $1 秒"
+  },
+  "filterPausedBoth": {
+    "message": "このタブで一時停止が重複中 · 残り $1 秒"
+  },
+  "filterPausedTab": {
+    "message": "現在のタブを一時停止中 · 残り $1 秒"
+  },
+  "filterPending": {
+    "message": "このページのフィルターを更新中"
+  },
+  "filterRestricted": {
+    "message": "ブラウザの制限によりこのページには適用できません"
+  },
+  "filterBaseStrength": {
+    "message": "ベース強度 $1% を含む"
+  },
+  "filterStrength": {
+    "description": "Filter strength",
+    "message": "フィルター強度"
+  },
+  "fixedInterval": {
+    "description": "Fixed interval",
+    "message": "固定間隔"
+  },
+  "forcedRestMessage": {
+    "message": "少し画面から離れて、タイマーが終わるまで目を休めましょう。"
+  },
+  "forcedRestMode": {
+    "description": "Forced rest mode section title",
+    "message": "強制休憩モード"
+  },
+  "forcedRestTitle": {
+    "message": "休憩時間です"
+  },
+  "fullscreenReminder": {
+    "description": "Fullscreen rest mode option label",
+    "message": "フルスクリーンリマインダー"
+  },
+  "greenColorName": {
+    "message": "淡い翡翠色"
+  },
+  "hours": {
+    "description": "Hours unit",
+    "message": "時間"
+  },
+  "importPreview": {
+    "message": "インポートのプレビュー"
+  },
+  "intervalConfigured": {
+    "message": "$1 分ごとに通知"
+  },
+  "intervalLeft": {
+    "message": "次のリマインダーまで $1"
+  },
+  "intervalMinutesLabel": {
+    "message": "間隔（分）"
+  },
+  "language": {
+    "description": "Language selector label",
+    "message": "言語:"
+  },
+  "lavenderPurpleColorName": {
+    "message": "薄い菖蒲色"
+  },
+  "lightGreenColorName": {
+    "message": "若芽色"
+  },
+  "mintGreenColorName": {
+    "message": "淡いミント"
+  },
+  "minutes": {
+    "description": "Minutes unit",
+    "message": "分"
+  },
+  "moreColors": {
+    "message": "その他の色"
+  },
+  "musicBeautiful": {
+    "message": "森のこだま"
+  },
+  "musicCheerful": {
+    "message": "朝の光"
+  },
+  "musicPeaceful": {
+    "message": "静かな水面"
+  },
+  "musicType": {
+    "description": "Music type selection",
+    "message": "音楽タイプ"
+  },
+  "musicVolume": {
+    "description": "Music volume control",
+    "message": "音量"
+  },
+  "nightStart": {
+    "message": "夜の開始時刻"
+  },
+  "nightStrength": {
+    "message": "夜の強度"
+  },
+  "nonzeroCountdown": {
+    "message": "カウントダウンは1分以上に設定してください。"
+  },
+  "openColorPicker": {
+    "message": "色を選択 / RGB"
+  },
+  "operationFailed": {
+    "message": "操作に失敗しました。もう一度お試しください。"
+  },
+  "pause30": {
+    "message": "30秒"
+  },
+  "pauseAll": {
+    "message": "すべてのタブ"
+  },
+  "pauseBreakMusic": {
+    "message": "一時停止"
+  },
+  "pauseDuration": {
+    "message": "時間"
+  },
+  "pauseFilter": {
+    "message": "フィルターを一時停止"
+  },
+  "pauseOptions": {
+    "message": "オプション"
+  },
+  "pauseQuick": {
+    "message": "30秒間一時停止"
+  },
+  "pauseQuickAll": {
+    "message": "すべてのタブを $1 一時停止"
+  },
+  "pauseQuickTab": {
+    "message": "現在のタブを $1 一時停止"
+  },
+  "pauseScope": {
+    "message": "対象"
+  },
+  "pauseTab": {
+    "message": "現在のタブのみ"
+  },
+  "pinkColorName": {
+    "message": "薄紅"
+  },
+  "playBreakMusic": {
+    "message": "再生"
+  },
+  "preferencesSaved": {
+    "message": "設定を保存しました。"
+  },
+  "preferencesSaving": {
+    "message": "保存中…"
+  },
+  "preferencesUnsaved": {
+    "message": "未保存の変更があります"
+  },
+  "presetColors": {
+    "description": "Preset eye care colors",
+    "message": "プリセットアイケアカラー"
+  },
+  "previewMusic": {
+    "description": "Preview music button",
+    "message": "プレビュー"
+  },
+  "projectName": {
+    "message": "GrovePage"
+  },
+  "recheckShort": {
+    "message": "再読み込みして確認"
+  },
+  "reminderAutoClose": {
+    "message": "$1 秒後に自動で閉じます"
+  },
+  "reminderDisabled": {
+    "message": "休憩リマインダーはオフです"
+  },
+  "reminderMessage": {
+    "description": "Reminder message label",
+    "message": "リマインダーメッセージ"
+  },
+  "reminderPreferences": {
+    "message": "リマインダー設定"
+  },
+  "reminderType": {
+    "description": "Reminder type",
+    "message": "リマインダータイプ"
+  },
+  "restDuration": {
+    "description": "Rest duration selection",
+    "message": "休憩時間"
+  },
+  "restModeType": {
+    "description": "Rest mode type selection",
+    "message": "休憩モードタイプ"
+  },
+  "restReminder": {
+    "description": "Rest reminder section title",
+    "message": "休憩リマインダー"
+  },
+  "restTimeRemaining": {
+    "message": "残りの休憩時間"
+  },
+  "resumeAll": {
+    "message": "すべてのタブを今すぐ再開"
+  },
+  "resumeAllShort": {
+    "message": "全タブを再開"
+  },
+  "resumeNow": {
+    "message": "今すぐ再開"
+  },
+  "resumeTab": {
+    "message": "現在のタブを今すぐ再開"
+  },
+  "resumeTabShort": {
+    "message": "このタブを再開"
+  },
+  "rosePinkColorName": {
+    "message": "淡いベリー色"
+  },
+  "savePreferences": {
+    "message": "設定を保存"
+  },
+  "scheduleHint": {
+    "message": "端末のローカル時刻を使用し、昼と夜で同じ色を使います。"
+  },
+  "selectBackup": {
+    "message": "バックアップファイルを選択"
+  },
+  "settingOff": {
+    "message": "オフ"
+  },
+  "settingOn": {
+    "message": "オン"
+  },
+  "settingsAbout": {
+    "message": "この拡張機能について"
+  },
+  "settingsBackup": {
+    "message": "バックアップと復元"
+  },
+  "settingsFilter": {
+    "message": "フィルターとサイト"
+  },
+  "settingsGeneral": {
+    "message": "ショートカットと言語"
+  },
+  "shortcutDisabledNotice": {
+    "message": "ウェブページフィルター: オフ"
+  },
+  "shortcutEnabledNotice": {
+    "message": "ウェブページフィルター: オン"
+  },
+  "shortcutSettings": {
+    "description": "Shortcut settings section title",
+    "message": "ショートカット設定"
+  },
+  "shortcutUnassigned": {
+    "message": "未割り当て"
+  },
+  "showShortcutNotifications": {
+    "description": "Show shortcut notifications option",
+    "message": "通知を表示"
+  },
+  "skipConfirmMessage": {
+    "message": "確認すると休憩ウィンドウを閉じます。"
+  },
+  "skipConfirmTitle": {
+    "message": "休憩を終了しますか？"
+  },
+  "specificDomains": {
+    "description": "Specific domains option",
+    "message": "指定サイト"
+  },
+  "startCountdown": {
+    "description": "Start countdown button",
+    "message": "カウントダウン開始"
+  },
+  "stopCountdown": {
+    "description": "Stop countdown button",
+    "message": "カウントダウン停止"
+  },
+  "stopPreview": {
+    "description": "Stop preview button",
+    "message": "停止"
+  },
+  "timerMinutesValue": {
+    "message": "$1 分"
+  },
+  "timerStart": {
+    "message": "開始"
+  },
+  "timerStop": {
+    "message": "停止"
+  },
+  "useBaseStrength": {
+    "message": "標準の強度を使う"
+  },
+  "warmOrangeColorName": {
+    "message": "杏色"
+  },
+  "feedbackTitle": {
+    "message": "フィードバック"
+  },
+  "feedbackIntro": {
+    "message": "質問、不具合の報告、改善提案は作者にメールでお寄せください。"
+  },
+  "loadedVersionNotice": {
+    "message": "ブラウザは v$1 を読み込んでいます。拡張機能を再読み込みすると現在のパッケージが適用されます。"
+  },
+  "reloadExtension": {
+    "message": "拡張機能を再読み込み"
+  },
+  "supportProject": {
+    "message": "寄付で応援"
+  },
+  "supportPitch": {
+    "message": "GrovePage が気に入ったら、この小さな葉っぱに水をあげてみませんか？ その応援が、次のアップデートの力になります。"
+  },
+  "supportVoluntary": {
+    "message": "応援は任意です。すべての機能を無料で使えます。"
+  },
+  "backToFeedback": {
+    "message": "フィードバックに戻る"
+  },
+  "saveSectionPreferences": {
+    "message": "このページを保存"
+  },
+  "preferencesOtherUnsaved": {
+    "message": "ほかの設定に未保存の変更があります。"
+  },
+  "domainListRequired": {
+    "message": "有効なウェブサイトのドメインを1つ以上入力してください。"
+  },
+  "websiteRulesLink": {
+    "message": "ウェブサイトのルール"
+  },
+  "supportWechat": {
+    "message": "WeChat Pay"
+  },
+  "supportAlipay": {
+    "message": "Alipay"
+  },
+  "viewSupportCode": {
+    "message": "元の画像を表示"
+  }
+}

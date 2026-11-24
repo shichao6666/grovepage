@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN" class="popup-frame">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="projectName">森页护眼</title>
+  <link rel="stylesheet" href="../js/ui.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="popup">
+  <div class="popup-scroll" role="region" tabindex="0" aria-labelledby="modeTitle">
+  <div id="popupContent" class="popup-content">
+  <main>
+    <header class="popup-header">
+      <div class="row">
+        <h1 id="modeTitle" data-i18n="eyeProtectionMode">护眼模式</h1>
+        <label class="power-switch">
+          <input type="checkbox" role="switch" id="eyeProtectionToggle" aria-labelledby="modeTitle" disabled>
+          <span class="switch-track" aria-hidden="true"></span>
+        </label>
+      </div>
+      <div class="page-status" id="pageStatus" data-tone="neutral">
+        <span class="status-dot" aria-hidden="true"></span>
+        <p id="filterStatus" role="status" data-i18n="checkingFilter">正在检查当前网页</p>
+        <button class="text-button" type="button" id="reloadPage" data-i18n="recheckShort" hidden>刷新重查</button>
+        <a class="text-button" id="siteRulesLink" href="../options/options.html#websiteRules" target="_blank" rel="noopener" data-i18n="websiteRulesLink" hidden>网站规则</a>
+      </div>
+    </header>
+
+    <section class="appearance">
+      <div class="palette-card">
+      <div class="row">
+        <h2 data-i18n="filterColors">护眼颜色</h2>
+        <span id="currentColor" class="current-color" hidden>
+          <span id="colorSwatch" aria-hidden="true"></span><span id="colorName"></span>
+        </span>
+      </div>
+      <div class="palette-row">
+        <div class="palette" id="quickPalette"></div>
+        <button class="text-button" type="button" id="colorOptions" aria-expanded="false" aria-controls="moreColors" data-i18n="moreColors">更多颜色</button>
+      </div>
+      <div class="inline-panel" id="moreColors" hidden>
+        <div class="palette" id="extraPalette"></div>
+        <div class="row wrap custom-row">
+          <label><input type="checkbox" id="useCustomColor"><span data-i18n="customColor">自定义颜色</span></label>
+          <label class="color-picker">
+            <span id="customSwatch" aria-hidden="true"></span>
+            <span id="pickerLabel" data-i18n="openColorPicker">选色 / RGB</span>
+            <input type="color" id="customColor" aria-labelledby="pickerLabel" value="#E9D4AC">
+          </label>
+        </div>
+      </div>
+      </div>
+      <label class="strength">
+        <span class="strength-heading">
+          <span class="strength-title">
+            <span id="strengthLabel" data-i18n="filterStrength">滤镜强度</span>
+            <span id="strengthHint" class="strength-hint"></span>
+          </span>
+          <output id="strengthValue" for="opacitySlider">50%</output>
+        </span>
+        <input type="range" id="opacitySlider" min="0" max="100" value="50" aria-labelledby="strengthLabel" aria-describedby="strengthHint" disabled>
+      </label>
+    </section>
+
+    <section class="pause-section">
+      <div class="row pause-row">
+        <button class="soft-button pause-quick" type="button" id="pauseQuick" disabled>暂停当前标签页 30 秒</button>
+        <div id="pauseActive" class="pause-active" hidden>
+          <p id="pauseStatus"></p>
+          <div class="resume-actions">
+            <button class="text-button" type="button" id="resumeTab" hidden>立即恢复</button>
+            <button class="text-button" type="button" id="resumeAll" hidden>立即恢复</button>
+          </div>
+        </div>
+        <button class="quiet-button" type="button" id="pauseOptions" aria-expanded="false" aria-controls="pauseControl" data-i18n="pauseOptions">选项</button>
+      </div>
+      <div class="inline-panel" id="pauseControl" hidden>
+        <fieldset class="segments">
+          <legend data-i18n="pauseScope">范围</legend>
+          <label><input type="radio" name="pauseScope" value="tab" checked><span data-i18n="pauseTab">仅当前标签页</span></label>
+          <label><input type="radio" name="pauseScope" value="all"><span data-i18n="pauseAll">所有标签页</span></label>
+        </fieldset>
+        <fieldset class="segments">
+          <legend data-i18n="pauseDuration">时长</legend>
+          <label><input type="radio" name="pauseDuration" value="30" checked><span data-i18n="pause30">30 秒</span></label>
+          <label><input type="radio" name="pauseDuration" value="60"><span data-i18n="duration1Min">1 分钟</span></label>
+          <label><input type="radio" name="pauseDuration" value="180"><span data-i18n="duration3Min">3 分钟</span></label>
+          <label><input type="radio" name="pauseDuration" value="300"><span data-i18n="duration5Min">5 分钟</span></label>
+        </fieldset>
+        <button class="soft-button" type="button" id="pauseStart" data-i18n="pauseFilter" disabled>暂停滤镜</button>
+      </div>
+    </section>
+
+    <section class="timer-section">
+      <div class="row">
+        <h2 id="reminderTitle" data-i18n="restReminder">休息提醒</h2>
+        <label class="power-switch">
+          <input type="checkbox" role="switch" id="reminderToggle" aria-labelledby="reminderTitle" disabled>
+          <span class="switch-track" aria-hidden="true"></span>
+        </label>
+      </div>
+      <fieldset id="reminderModes" class="segments reminder-modes" disabled>
+        <legend data-i18n="reminderType">提醒方式</legend>
+        <label><input type="radio" name="reminderMode" value="interval" checked><span data-i18n="fixedInterval">固定间隔</span></label>
+        <label><input type="radio" name="reminderMode" value="countdown"><span data-i18n="countdown">倒计时</span></label>
+      </fieldset>
+      <div class="timer-row">
+        <p id="reminderStatus" class="timer-status muted"></p>
+        <label class="countdown-length" id="countdownLength" hidden>
+          <span id="countdownInputLabel" data-i18n="countdown" hidden>倒计时</span>
+          <input id="quickTotalMinutes" type="number" min="1" max="1499" step="1" aria-labelledby="countdownInputLabel countdownUnit" required disabled>
+          <span id="countdownUnit" data-i18n="minutes">分钟</span>
+        </label>
+        <p id="timerRemaining" class="timer-remaining" hidden></p>
+        <button class="quiet-button" type="button" id="countdownAction" hidden></button>
+        <a class="text-button" id="reminderSettings" href="../options/options.html#reminders" target="_blank" data-i18n="configureReminder">提醒设置</a>
+      </div>
+    </section>
+    <p id="filterError" class="error" role="alert" hidden></p>
+  </main>
+
+  <footer>
+    <div class="footer-actions">
+      <a href="../options/options.html" target="_blank" class="settings-link">
+        <span data-i18n="advancedSettings">高级设置</span><span class="settings-chevron" aria-hidden="true"></span>
+      </a>
+      <a href="../settings/support.html" target="_blank" rel="noopener noreferrer" class="text-button support-link" data-i18n="supportProject">捐献支持</a>
+    </div>
+  </footer>
+  </div>
+  </div>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/ui.js"></script>
+  <script src="../js/filter-settings.js"></script>
+  <script src="../js/reminder-settings.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

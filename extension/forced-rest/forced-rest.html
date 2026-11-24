@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="forcedRestTitle">休息时间</title>
+  <link rel="stylesheet" href="../js/ui.css">
+  <link rel="stylesheet" href="forced-rest.css">
+</head>
+<body class="break-page">
+  <main class="break-card">
+    <img src="../icons/icon128.png" width="64" height="64" alt="">
+    <header>
+      <h1 data-i18n="forcedRestTitle">休息时间</h1>
+      <p id="breakMessage" class="muted">离开屏幕一会儿，等这段休息结束再继续。</p>
+    </header>
+    <div>
+      <p id="remainingLabel" data-i18n="restTimeRemaining" class="muted">剩余休息时间</p>
+      <div id="restTimer" role="timer" aria-labelledby="remainingLabel">--:--</div>
+    </div>
+    <section class="break-music" id="musicControl" hidden>
+      <div class="row wrap"><span id="musicName"></span><button id="toggleMusic" type="button"></button></div>
+      <label class="stack"><span data-i18n="musicVolume">音量</span><input type="range" id="musicVolumeControl" min="0" max="100"></label>
+      <p id="musicStatus" role="status" class="muted" hidden></p>
+    </section>
+    <div class="break-actions">
+      <button type="button" class="primary" id="extendButton" data-i18n="extendBreakFive">延长 5 分钟</button>
+      <button type="button" id="skipButton" data-i18n="emergencySkip" hidden>紧急跳过</button>
+    </div>
+  </main>
+  <dialog id="skipDialog" aria-labelledby="skipTitle">
+    <form method="dialog" class="stack">
+      <h2 id="skipTitle" data-i18n="skipConfirmTitle">结束本次休息？</h2>
+      <p data-i18n="skipConfirmMessage">确认后关闭休息窗口。</p>
+      <div class="row wrap">
+        <button value="cancel" data-i18n="cancelSkip" autofocus>继续休息</button>
+        <button value="skip" id="confirmSkip" data-i18n="confirmSkip">结束休息</button>
+      </div>
+    </form>
+  </dialog>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/ui.js"></script>
+  <script src="../js/reminder-settings.js"></script>
+  <script src="forced-rest.js"></script>
+</body>
+</html>
