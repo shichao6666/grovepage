@@ -1,6 +1,6 @@
 # GrovePage · Website Tint & Break Reminders
 
-[简体中文](readme.md) | English
+[简体中文](README.md) | English
 
 **GrovePage** is an open-source **Manifest V3** browser extension for **Microsoft Edge** and **Google Chrome**. It applies an adjustable eye-care color tint to web pages and provides flexible break reminders—completely free, local-first, and with zero tracking.
 
